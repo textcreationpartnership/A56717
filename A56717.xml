@@ -1,0 +1,836 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The work of the ministry represented to the clergy of the Diocese of Ely / by Symon, Lord Bishop of Ely.</title>
+            <author>Patrick, Simon, 1626-1707.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1698</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 122 KB of XML-encoded text transcribed from 67 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-12">2011-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A56717</idno>
+            <idno type="STC">Wing P867</idno>
+            <idno type="STC">ESTC R33031</idno>
+            <idno type="EEBO-CITATION">12851385</idno>
+            <idno type="OCLC">ocm 12851385</idno>
+            <idno type="VID">94529</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A56717)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 94529)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 1038:15)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>The work of the ministry represented to the clergy of the Diocese of Ely / by Symon, Lord Bishop of Ely.</title>
+                  <author>Patrick, Simon, 1626-1707.</author>
+               </titleStmt>
+               <extent>[2], 121 [i.e. 123] p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed by Ri Chiswel ...,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1698.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Signed on p. 121: Sy. Eliens.</note>
+                  <note>Numerous errors in paging.</note>
+                  <note>Imperfect: tightly bound with loss of print.</note>
+                  <note>Errata: p. [2]</note>
+                  <note>Reproduction of original in the Cambridge University Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Church of England --  Clergy.</term>
+               <term>Clergy --  Appointment, call, and election.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2010-09</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2010-09</date>
+            <label>Apex CoVantage</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2010-11</date>
+            <label>Olivia Bottum</label>Sampled and proofread</change>
+         <change>
+            <date>2010-11</date>
+            <label>Olivia Bottum</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2011-06</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:94529:1"/>
+            <pb facs="tcp:94529:1" rendition="simple:additions"/>
+            <p>THE WORK OF THE MINISTRY Repreſented to The Clergy of the Dioceſe of <hi>ELY.</hi>
+            </p>
+            <p>By <hi>SYMON</hi> Lord Biſhop of <hi>ELY.</hi>
+            </p>
+            <p>
+               <hi>LONDON,</hi> Printed for <hi>Ri. Chiſwel,</hi> at the Roſe and Crown in <hi>St. Paul's-</hi>Church-Yard. 1698.</p>
+         </div>
+         <div type="errata">
+            <pb facs="tcp:94529:2" rendition="simple:additions"/>
+            <head>ERRATA.</head>
+            <p>PAg. 23. lin. 2. r. Temple, and to.</p>
+            <p>p. 29. l. ult. r. though not in every.</p>
+            <p>p. 34. l. 11. r. peculiarly.</p>
+            <p>p. 46. l. 16. r. mere creature.</p>
+            <p>p. 49. l. 24. r. teacheſt.</p>
+            <p>p. 50. l. 21. r. Hiſtoria.</p>
+            <p>p. 52. l. 13. r. <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>.</p>
+            <p>p. 56. l. 5. r. <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>.</p>
+            <p>p. 70. l. 17. r. celebrated.</p>
+         </div>
+      </front>
+      <body>
+         <div type="text">
+            <pb n="1" facs="tcp:94529:2"/>
+            <head>The WORK OF THE MINISTRY REPRESENTED To the CLERGY OF THE Dioceſe of <hi>ELY.</hi>
+            </head>
+            <opener>
+               <salute>Dear Brethren,</salute>
+            </opener>
+            <p>
+               <hi>TO ſhorten my own Labour, and your attendance at my approaching Viſitation, I ſend you this little Treatiſe be<g ref="char:EOLhyphen"/>forehand; which may ſerve in ſtead of the Exhortation, which is wont to be made on that oc<g ref="char:EOLhyphen"/>caſion. You will read it, I hope
+<pb n="2" facs="tcp:94529:3"/>
+with as ſerious conſideration, as you would have heard it, had it been ſpoken, with due attenti<g ref="char:EOLhyphen"/>on. By which means you will re<g ref="char:EOLhyphen"/>ceive a greater benefit, than you could have done the other way: for you may read that often, and imprint it in your minds; which you could have heard but once, and might have ſlipt out of your memory.</hi>
+            </p>
+            <p>
+               <hi>You ſee by the Title of it, that it treats of the Duties which be<g ref="char:EOLhyphen"/>long to that Function; in which it hath pleaſed the Moſt High, to do you the honour to employ you. A Function ſo truly noble, that it is not in my power to ſet forth the Dignity of it. For the Bleſſed Apoſtle St.</hi> Paul, <hi>thought it ſo great an honour to be made a</hi> Chriſtian, <hi>that he thought no
+<pb n="3" facs="tcp:94529:3"/>
+words, too lofty, to expreſs the dignity of their ſtate: which he calls, not only our</hi> High Calling, III <hi>Philip.</hi> 14. <hi>but our</hi> Heavenly Calling <hi>in Chriſt Jeſus,</hi> III <hi>Heb. 1. Which I cannot think of, but it makes me reflect; what an honour then it is, to be made a</hi> Miniſter <hi>of Jeſus Chriſt, whoſe buſineſs it is, to bring others into this glo<g ref="char:EOLhyphen"/>rious ſtate of Christianity; and to breed them up, &amp; keep them in it.</hi>
+            </p>
+            <p>
+               <hi>What preferment is there com<g ref="char:EOLhyphen"/>parable to this, to be conſtituted a</hi> Servant, <hi>and a</hi> Miniſter <hi>of the King of Glory; a</hi> Steward <hi>of the Heavenly Mysteries; an</hi> Embaſ<g ref="char:EOLhyphen"/>ſador <hi>for Christ; a</hi> Labourer <hi>in his Vineyard or Harvest; which implies indeed great pains, but carries in it alſo the great ho<g ref="char:EOLhyphen"/>nour
+<pb n="4" facs="tcp:94529:4"/>
+of ſowing the Seed of Eternal Life in Mens Souls; and culti<g ref="char:EOLhyphen"/>vating, that is preparing and making them fit to be carried in<g ref="char:EOLhyphen"/>to Chriſt's Heavenly Kingdom? I do not name all the places in the Holy Writings, where you find your ſelves deſcribed under theſe Characters; becauſe you cannot but be well acquainted with them. I ſhall only add, that we do not aſſume too much to our ſelves, when we call our ſelves the</hi> Clergy, i. e. <hi>God's</hi> Portion, <hi>or</hi> Inheritance; <hi>be<g ref="char:EOLhyphen"/>ing peculiarly ſeparated to his Service; as our Famous Mr.</hi> Mede <hi>hath moſt judiciouſly ob<g ref="char:EOLhyphen"/>ſerved.</hi> Diſcourſe XXXVI. p. 270. <hi>For the prime Miniſters of our Lord Chriſt, are called by himſelf; The</hi> Angels of the Churches <hi>over which they pre<g ref="char:EOLhyphen"/>ſided,</hi>
+               <pb n="5" facs="tcp:94529:4"/>
+I Revel. 20. <hi>And there<g ref="char:EOLhyphen"/>fore St.</hi> Chryſoſtome <hi>in his third Book</hi> 
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, <hi>feared not to ſay, That</hi> the Prieſthood is a Dignity raiſed far above all the honours of this World, and approaching to the Angelical Glory.</p>
+            <p>
+               <hi>Which if it be duly weighed, and laid to heart, we can never ceaſe to give God thanks, who hath advanced us to ſuch a noble Station; nor be unmindful of the ſervice he expecteth from us: but both ſtudy all the duties be<g ref="char:EOLhyphen"/>longing it; and endeavour to perform them with a Spirit ſuita<g ref="char:EOLhyphen"/>ble to our Function.</hi>
+            </p>
+            <p>
+               <hi>What thoſe</hi> Duties <hi>are, it is the principal buſineſs of this ſmall Treatiſe to lay before you. And with what</hi> Spirit <hi>they ought to be
+<pb n="6" facs="tcp:94529:5"/>
+performed, I ſhall, in the Con<g ref="char:EOLhyphen"/>cluſion of it, briefly admoniſh you. Theſe</hi> Two <hi>will comprehend all that I have to recommend to your Conſideration. For there is no neceſſity, ſure, to prove, that they whom God hath ſet apart to himſelf, for a peculiar ſervice, and therefore have a ſpecial re<g ref="char:EOLhyphen"/>lation to him, and have receiv<g ref="char:EOLhyphen"/>ed a ſpecial favour from him; have a ſingular Obligation, to do all they can to expreſs their gra<g ref="char:EOLhyphen"/>titude to him; by diſcharging faithfully that great truſt which he hath commited to them.</hi>
+            </p>
+            <div n="1" type="part">
+               <pb n="7" facs="tcp:94529:5"/>
+               <head>PART I.</head>
+               <p>NOW as to the Duties which are incumbent upon the Miniſters of Chriſt, I ſhall <hi>Firſt</hi> treat of thoſe which are to be performed in <hi>Private;</hi> and then of thoſe which are of <hi>Publick</hi> con<g ref="char:EOLhyphen"/>cernment.</p>
+               <div n="1" type="section">
+                  <head>SECT. I.</head>
+                  <p>The Private Duties, being to qualifie them for the right diſcharge of all Publick Offices, are principally, the <hi>Study of the Holy Scriptures,</hi> and <hi>Prayer.</hi>
+                  </p>
+                  <p>We profeſs at our Ordination, that we are <hi>Perſwaded the Holy Scrip<g ref="char:EOLhyphen"/>tures contain ſufficiently all Doctrine required of neceſſity for Everlaſting Salvation,</hi> &amp;c. and we declare that we <hi>are determined out of the
+<pb n="8" facs="tcp:94529:6"/>
+aid Scriptures to inſtruct the People committed to our charge,</hi> &amp;c. Which ſuppoſes that above all things we ought to apply our ſelves to the ſerious ſtudy of theſe Holy Books; that there we may learn, our own duty, and the duty of thoſe whom we are to inſtruct in the Chriſtian Religion. And accordingly a ſo<g ref="char:EOLhyphen"/>lemn Exhortation is made to thoſe who are to be admitted to the Order of Prieſthood; to conſider how ſtudious they ought to be in <hi>reading,</hi> and <hi>weighing,</hi> and <hi>learning</hi> the Scriptures; <hi>that they may wa<gap reason="illegible" resp="#UOM" extent="1 letter">
+                           <desc>•</desc>
+                        </gap> riper and ſtronger in their Miniſtry</hi> And more than this, we promiſe before God and his Church, that we will be diligent herein: which no Man can think of, if he have any Conſcience, and live in the neglect of this Sacred Study. For after we have given our <hi>Faith</hi> 
+                     <gap reason="illegible" resp="#UOM" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> God and to his Church to be care<g ref="char:EOLunhyphen"/>ful in this matter; we <hi>Seal</hi> it by receiving the Holy Communion
+<pb n="9" facs="tcp:94529:6"/>
+of Chriſt's Body and Blood. Which one would think ſhould be of mighty force (and will be ſo if duly weighed) to ſtir us up to this part of our duty; that we may not be guilty of the breach of ſuch ſolemn promiſes, as were made to God at his Altar.</p>
+                  <p>And here it may be proper briefly to remember you that this is ſo conformable to the Doctrine and practiſe of the Ancient Church; that <hi>Theophylact</hi> (upon the X St. <hi>John</hi> 1 &amp;c.) ſaith <hi>the Scriptures are the door by which the true Paſtor en<g ref="char:EOLhyphen"/>ters;</hi> and that he is a <hi>Thief,</hi> who comes not in by theſe, <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>, &amp;c. for he doth not uſe the Scriptures as wit<g ref="char:EOLhyphen"/>neſſes and vouchers for what he ſays. <q>By theſe, ſaith he, we are brought to God: theſe will not permit Wolves to enter; they keep out Hereticks, placing us in ſafety and ſecurity: Theſe give us right notions of all things
+<pb n="10" facs="tcp:94529:7"/>
+wherein we deſire to be infom<g ref="char:EOLhyphen"/>ed.</q>
+                  </p>
+                  <p>And therefore, My Brethren, apply your ſelves devoutly to the Study of theſe <hi>Divine Books;</hi> or rather of theſe Books <hi>which will make you Divine.</hi> For ſo they were called in the Ancient Chri<g ref="char:EOLhyphen"/>ſtian Language, <hi>Deificos libros,</hi> and <hi>Deificas Scripturas,</hi> and <hi>Inſtrument a Deifica</hi> (as <hi>Aelianus</hi> Proconſul of <hi>Africa</hi> calls them in <hi>Optatus</hi> lib. 1.) Which Name the very Heathen had learnt, it was ſo common, as appears by the enquiries they made after Bibles to burn them: this be<g ref="char:EOLhyphen"/>ing an uſual queſtion in the exa<g ref="char:EOLhyphen"/>mination of the Martyrs, <hi>Libros Deificos habetis?</hi> Which we ſhould look upon therefore, (as they did) as an invaluable Treaſure: <hi>and let the word of Chriſt dwell in us rich<g ref="char:EOLhyphen"/>ly in all wiſdom,</hi> as the Apoſtle S. <hi>Paul</hi> ſpeaks III <hi>Coloſſi.</hi> 16. Such wiſdom, as will not indeed make us Philoſophers, or Rhetoritians,
+<pb n="11" facs="tcp:94529:7"/>
+                     <hi>&amp;c.</hi> (to uſe the words of <hi>Juſtin Martyr)</hi> 
+                     <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>, &amp;c. <hi>But gives ſuch inſtructions, that of Mortals it makes us immortal; of Men it makes us God-like; from the Earth it tranſlates us above the top of Olympus.</hi> Exhort. 2. ad <hi>Graecos.</hi> p 40.</p>
+                  <p>And the very ſame in effect the Holy Scriptures ſpeak concerning themſelves, when they tell us they are able to make ſuch a Man as <hi>Ti<g ref="char:EOLhyphen"/>mothy</hi> was, <hi>wiſe unto ſalvation; being profitable for doctrine, for reproof, for correction, for inſtruction in righteouſ<g ref="char:EOLhyphen"/>neſs; that the Man of God may be per<g ref="char:EOLhyphen"/>fect, throughly furniſhed unto all good works.</hi> 2 Tim. III. 15, 16, 17. which ſhould move us to follow his Exhortation in the foregoing Epiſtle, 1 <hi>Tim.</hi> IV. 13, 15. <hi>Give attendance to reading,</hi> &amp;c. <hi>Meditate on theſe things, give your ſelves wholly to them, that your profiting may ap<g ref="char:EOLhyphen"/>pear to all,</hi> or <hi>in all things.</hi>
+                  </p>
+                  <p>
+                     <pb n="12" facs="tcp:94529:8"/>
+For this end you muſt joyn with this, ſuch other Studies, as tend to lead you into a right un<g ref="char:EOLhyphen"/>derſtanding of the Holy Scrip<g ref="char:EOLhyphen"/>tures: Of this you were admo<g ref="char:EOLhyphen"/>niſhed alſo at your Ordination; when you promiſed <hi>to be diligent in reading the Holy Scriptures, and in ſuch ſtudies as help to the knowledg of the ſame, laying aſide the ſtudy of the World and of the Fleſh.</hi> And chiefly you are to ſtudy to under<g ref="char:EOLhyphen"/>ſtand the Language, in which the Holy Scriptures were Originally delivered to the Church: eſpecial<g ref="char:EOLhyphen"/>ly the New Teſtament; in which we ought to be as perfect, as Law<g ref="char:EOLhyphen"/>yers are in <hi>Littleton's Tenures.</hi> For this is our ſtanding Rule, of Faith, and Manners: in which if we be not well skilled our ſelves, we ſhall never be able to direct others. And next to this, it is neceſſary to ſtudy diligently ſome approved Commentator upon the Bible; eſpecially Dr. <hi>Hammond</hi> on the New
+<pb n="13" facs="tcp:94529:8"/>
+Teſtament: which is not only to be read over, but to be digeſted ſo that you may be Maſters of the ſenſe of our Saviour and his Holy Apoſtles. I ſhall not lanch out into any further directions about the ſtudy of the <hi>Fathers,</hi> and the Church-Hiſtory, which are neceſ<g ref="char:EOLhyphen"/>ſary to accompliſh a compleat Divine: for that would ſwell this Book to a much greater bulk, than I deſign it ſhould have.</p>
+                  <p>To conclude this Section, let <hi>Ezra</hi> that Reſtorer of Religion among the Jews be your pattern: who tells us himſelf, that he was <hi>a ready Scribe in the Law of Moſes,</hi> VII <hi>Ezra</hi> 6. Such we ſhould be, well verſed in the Holy Scrip<g ref="char:EOLhyphen"/>tures, eſpecially in the <hi>Laws of Chriſt:</hi> ſo as to have them <hi>ready</hi> at hand for our purpoſe. And in the 10th Verſe, he tells us how he came to deſerve this Character. <hi>Firſt,</hi> he had <hi>prepared his heart to ſeek the Law of the LORD.</hi> i. e.
+<pb n="14" facs="tcp:94529:9"/>
+underſtand it: and then <hi>Secondly,</hi> it follows, he prepared his heart <hi>to do it:</hi> that is, to act according to his knowledg; and ſo, <hi>to teach Iſrael ſtatutes and judgments.</hi>
+                  </p>
+               </div>
+               <div n="2" type="section">
+                  <head>SECT. II.</head>
+                  <p>Which that we may be able to do with good ſucceſs, we ought as the Pſalmiſt ſpeaks moſt emphatically, <hi>give our ſelves unto prayer,</hi> CXIX <hi>Pſal.</hi> 4. This is a duty incumbent upon all private Chriſtians, whom our Saviour and his Apoſtles command, to <hi>pray alway,</hi> and to <hi>pray without ceaſing,</hi> and to <hi>watch unto prayer:</hi> but the Miniſters of Chriſt ought more eſpecially, to be inſtant and inceſſant in it; becauſe they have need of a ſpecial aſſiſtance and bleſſing from above, upon their labours to make others good Chriſtians.</p>
+                  <p>Which cannot be done with<g ref="char:EOLhyphen"/>out the bleſſed preſence of God's Holy Spirit with us: which muſt
+<pb n="15" facs="tcp:94529:9"/>
+conſtantly and earneſtly be im<g ref="char:EOLhyphen"/>plored; to give us a right judg<g ref="char:EOLhyphen"/>ment in all things; to fill us with a lively ſence of Divine Matters, and to enable us to convey it in<g ref="char:EOLhyphen"/>to the Minds and Hearts of o<g ref="char:EOLhyphen"/>thers.</p>
+                  <p>Of this alſo we are put in mind at our Ordination; and therefore ſhould never forget it. For in that admirable Exhortati<g ref="char:EOLhyphen"/>on, which goes before the Queſti<g ref="char:EOLhyphen"/>ons to which we are to make An<g ref="char:EOLhyphen"/>ſwers, the great excellence, and the great difficulty of our Office is repreſented to us; to make us ſenſible <hi>what need we have to pray earneſtly for God's Holy Spirit:</hi> without which it is impoſſible for us to have either a will or abili<g ref="char:EOLhyphen"/>ty to perform it as we ought. And accordingly this is one of the things, which immediately after we promiſe to God and to his Church: That we will <hi>be diligent in Prayers, as well as in reading the Holy Scriptures.</hi>
+                  </p>
+                  <p>
+                     <pb n="16" facs="tcp:94529:10"/>
+Let us therefore, as it follows in the forenamed Exhortation, <hi>Pray continually to God the Father, by the Mediation of our only Lord and Saviour Jeſus Chriſt, for the heavenly Aſſiſtance of the Holy Ghoſt.</hi> For as the Holy Scriptures are <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap> the <hi>Door</hi> whereby the good Shepherd enters to the perfor<g ref="char:EOLhyphen"/>mance of his Office, as <hi>Theophy<g ref="char:EOLhyphen"/>lact</hi> I obſerved before Expounds our Saviour's words, X <hi>John</hi> 1. So the Holy Spirit of God, in the opinion of the ſame Father, is the <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap> mentioned in the <hi>third</hi> Verſe of that Chapter, which we tranſlate <hi>the Porter,</hi> or the <hi>Door<g ref="char:EOLhyphen"/>keeper,</hi> who <hi>opens</hi> the Door for us; and lets us into the ſenſe of the holy Scriptures. So his words are; <hi>becauſe by the Holy Spirit, the Scrip<g ref="char:EOLhyphen"/>tures being opened and underſtood, Chriſt is made known to us;</hi> there<g ref="char:EOLhyphen"/>fore it is called the <hi>Door-keeper.</hi> 
+                     <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>, &amp;c. <hi>By whom he being the Spirit of Wiſdom
+<pb n="17" facs="tcp:94529:10"/>
+and Knowledg, the Scriptures are o<g ref="char:EOLhyphen"/>pened unto us: and by that means, our Lord the good Shepherd enters to take us into his care and conduct.</hi>
+                  </p>
+                  <p>To be Strangers then to this Holy Duty, is to be Strangers to God, and to all that is good: who as <hi>He is nigh to all thoſe that call upon him faithfully;</hi> ſo he withdraws himſelf from thoſe who neglect him. Of which we cannot be guilty, if we remem<g ref="char:EOLhyphen"/>ber, in what need we ſtand a<g ref="char:EOLhyphen"/>bove all other Men, of his bleſſed Preſence with us, to guide, and ſtrengthen, and further us in the diſcharge of our weighty truſt for his Honour, and the Salvation of Men. This will ſtir us up not only to <hi>ask,</hi> and <hi>ſeek,</hi> but <hi>knock</hi> alſo (as our Saviour Speaks) that is pray with the greateſt impor<g ref="char:EOLhyphen"/>tunity for the Holy Spirit, which our Heavenly Father is more ready to give, than Parents are to give food to their hungry Chil<g ref="char:EOLhyphen"/>dren.</p>
+                  <p>
+                     <pb n="18" facs="tcp:94529:11"/>
+Let us be awakened by the ex<g ref="char:EOLhyphen"/>ample of King <hi>David,</hi> who pre<g ref="char:EOLhyphen"/>vented the morning light to pray to God, and to meditate in his Statutes, as he tells us, CXIX <hi>Pſal.</hi> 147, 148. Though he was a man that had abundance of Cares up<g ref="char:EOLhyphen"/>on him, and was engaged in many Warrs (as <hi>Theodoret</hi> gloſſes upon that place) yet God ſtill was in all his thoughts; without whoſe aid he durſt not undertake any thing, much leſs hope for ſucceſs in his Affairs. And ſhall we who have no ſuch load of buſineſs up<g ref="char:EOLhyphen"/>on us, roll our <gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>e<gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ves up and down in eaſe, and (as that Father there ſpeaks) <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>, &amp;c. not ſo much as in the be<g ref="char:EOLhyphen"/>ginning of the day, offer up an hymn of Praiſe and Thankſgiv<g ref="char:EOLhyphen"/>ing to the giver of all good things; and implore his Bleſſing upon us? A moſt ſtupid negligence, and an unpardonable inſenſibleneſs of our conſtant and moſt bountiful
+<pb n="19" facs="tcp:94529:11"/>
+benefactor: <hi>without whom we can do nothing.</hi>
+                  </p>
+                  <p>His Grace and Mercy we ought to ſeek as ſoon as we riſe; and as often, as we can in the day; retir<g ref="char:EOLhyphen"/>ing our ſelves on purpoſe into our Cloſets, to beſeech him to be with us in our Studies, and in our La<g ref="char:EOLhyphen"/>bours for the good of Souls. For as <hi>Clemens Alexandrinus</hi> ſpeaks (Lib. VII. Strom.) a Prieſt ought to be of ſuch an heavenly Spirit, that <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>, <hi>his whole life is Prayer, and Con<g ref="char:EOLhyphen"/>verſation with God.</hi> Which St. <hi>Ba<g ref="char:EOLhyphen"/>ſil</hi> (in his Homily upon the Mar<g ref="char:EOLhyphen"/>tyr <hi>Julitta)</hi> thinks is the Apoſtles meaning, when he bids us, <hi>Pray with<g ref="char:EOLhyphen"/>out ceaſing:</hi> not by putting up Peti<g ref="char:EOLhyphen"/>tions to Heaven perpetually, in ſo many words (for that's impoſſible) <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>, <hi>&amp;c.</hi> but rather by the ſettled Diſpoſition of our mind, and bent of our Wills to<g ref="char:EOLhyphen"/>wards God (into which our Pray<g ref="char:EOLhyphen"/>ers ought to put us and preſerve us
+<pb n="20" facs="tcp:94529:12"/>
+therein) and by a regular Life: whereby we ſhall draw down ſtill more of his Grace upon us.</p>
+                  <p>For this I muſt obſerve in the Concluſion of this part of my Diſ<g ref="char:EOLhyphen"/>courſe; that careleſs and frigid Prayers, which make no altera<g ref="char:EOLhyphen"/>tion in our ſelves, have no effect with God. To whom we muſt addreſs our ſelves with ſuch fer<g ref="char:EOLhyphen"/>vent and earneſt Deſires, as turn our Hearts towards him; and give us ſuch a lively ſence of him, as brightens and chears our minds, knits our Wills and Affections to him, and makes us like him. Thus <hi>Daniel</hi> repreſents this Duty to us, when he complains of the Chil<g ref="char:EOLhyphen"/>dren of <hi>Iſrael,</hi> that <hi>They did not make their prayer to the LORD their God, to turn from their iniquity, and to understand the truth,</hi> IX. <hi>Dan.</hi> 13. Which as it denotes their dull for<g ref="char:EOLhyphen"/>mality in their Prayers, (which no doubt they continually made in their Captivity) whereby they were
+<pb n="21" facs="tcp:94529:12"/>
+not converted to God, and reform<g ref="char:EOLhyphen"/>ed in their lives: So it implies withal that ſerious and devout Prayer, hath a power in it to turn about the Heart, and give God the poſſeſſion of it: which is the beſt way <hi>to underſtand the truth.</hi>
+                  </p>
+                  <p>Employ therefore as much time as you can, in ſecret Prayer to God; with ſuch Affection, that you may feel your ſelves really bettered by it. Pray for your ſelves and pray for your Flock (that God would bleſs your Labours a<g ref="char:EOLhyphen"/>mong them, and pour the Dew of his Heavenly Grace upon them) for the whole Church of Chriſt; yea for all Mankind. For ſuch is the Nobleneſs of this Duty, that in the exerciſe of it, we extend our Charity to all the World, which we cannot do by any other means. It enlarges our Souls in<g ref="char:EOLhyphen"/>to a kind of infinity and immen<g ref="char:EOLhyphen"/>ſity in our good Deſires and Wiſh<g ref="char:EOLhyphen"/>es; and in the readineſs of our
+<pb n="22" facs="tcp:94529:13"/>
+Mind to do good to every one, were it in our power.</p>
+               </div>
+               <div n="3" type="section">
+                  <head>SECT. III.</head>
+                  <p>Thus having briefly laid before you the <hi>pri<g ref="char:EOLhyphen"/>vate</hi> Duties intumbent on the Mi<g ref="char:EOLhyphen"/>niſters of Chriſt, I proceed to thoſe which are of a <hi>publick</hi> Con<g ref="char:EOLhyphen"/>cernment. And in treating of them, I ſhall take them into con<g ref="char:EOLhyphen"/>ſideration, in that Order wherein they lie in the publick <hi>Liturgy</hi> of our Church.</p>
+                  <p>Where the firſt thing that pre<g ref="char:EOLhyphen"/>ſents it ſelf unto us, is the <hi>Order for MORNING and EVENING Prayer, daily through<g ref="char:EOLhyphen"/>out the year.</hi> Which is to be per<g ref="char:EOLhyphen"/>formed by him that <hi>Miniſtreth in every Pariſh-Church or Chappel, being at home, and not being otherwiſe rea<g ref="char:EOLhyphen"/>ſonably hindred.</hi> This is the ſtand<g ref="char:EOLhyphen"/>ing Law of this Realm; and a moſt reaſonable Law it is. For who can imagine, that God who ſo ſtrictly enjoined the Jews, to
+<pb n="23" facs="tcp:94529:13"/>
+offer to him a Lamb every morning and every evening at the Temple, to double this Sacrifice on their Sabbath, doth not expect that we (who are made a <hi>peculiar people</hi> to him, by far greater benefits than were conferred on them) ſhould offer unto him the Sacrifice of pray<g ref="char:EOLhyphen"/>er, and praiſe and thankſgiving, Morning and Evening in our Chur<g ref="char:EOLhyphen"/>ches? All Chriſtians from the be<g ref="char:EOLhyphen"/>ginning ever did it. At this day all the Eaſtern Churches, both <hi>Greek</hi> and <hi>Armenian</hi> conſtantly do it. I need ſay nothing of the pra<g ref="char:EOLhyphen"/>ctiſe of the <hi>Roman</hi> Church; which in this matter is truly Catholick. The <hi>Lutherans</hi> and <hi>Calvinists</hi> (as they are called) in <hi>Germany,</hi> have their daily publick Offices; and full Congregations. The <hi>Socinians</hi> in <hi>Poland,</hi> as <hi>Ruarus</hi> tells us <hi>(Cent. 2. Epiſt. pag.</hi> 99.) had publick Prayers Morning and Evening, which laſted three Quar<g ref="char:EOLhyphen"/>ters of an Hour. Yea, the <hi>Maho<g ref="char:EOLhyphen"/>metans</hi>
+                     <pb n="24" facs="tcp:94529:14"/>
+themſelves have their ſtated times of Prayer; five times in the day. For <hi>Mahomet</hi> had ſo much ſenſe, as to call Prayer, <hi>The Pillar of Religion</hi> (as Dr. <hi>Pocock</hi> obſerves upon <hi>Abul-Pharagii,</hi> p. 304.) <hi>For take this away, and Religion falls to the ground:</hi> as this Pillar of i<gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> will ſoon do, if it be not ſupported by publick Aſſemblies.</p>
+                  <p>How they came to be ſo much diſuſed among us, here in this Church, except only on <hi>Sundays</hi> it is ſad to conſider, and extreamly to be lamented. We herein forſake the practiſe of all Churches; and fall ſhort of thoſe who are not Chri<g ref="char:EOLhyphen"/>ſtians. The Conſtitutions indeed of our Church, are conformable to all others; and ſtrictly enjoyn that which we do not now practiſe. Which is a publick Witneſs againſt us, that we are degenerated from our firſt Principles; and by de<g ref="char:EOLhyphen"/>grees grown cold and remiſs in our Religion. The fault perhaps may
+<pb n="25" facs="tcp:94529:14"/>
+have been very much in the Peo<g ref="char:EOLhyphen"/>ple; but it is to be feared we have been to blame alſo: in not admo<g ref="char:EOLhyphen"/>niſhing them of their Duty, and calling upon them to aſſemble them<g ref="char:EOLhyphen"/>ſelves daily to Worſhip their bleſſed Lord and Saviour.</p>
+                  <p>It muſt be allowed, that in ſome Pariſhes, the Houſes are ſo ſcatter<g ref="char:EOLhyphen"/>ed, and lie ſo far diſtant from the Church, that they cannot poſſibly meet together daily for the Publick Service of God. But this Plea can<g ref="char:EOLhyphen"/>not, with any appearance of truth, be made for all Pariſhes; eſpecial<g ref="char:EOLhyphen"/>ly for Market-Towns: where the Houſes are built cloſer together, and not far from the place of pub<g ref="char:EOLhyphen"/>lick Worſhip. Many are at leiſure alſo in ſuch Pariſhes, to attend dai<g ref="char:EOLhyphen"/>ly, if they had Hearts to do it, up<g ref="char:EOLhyphen"/>on the publick Prayers: Whatſoe<g ref="char:EOLhyphen"/>ver may be alledged in the excuſe of poor labouring People.</p>
+                  <p>Therefore uſe your beſt endea<g ref="char:EOLhyphen"/>vours to bring the People to a ſenſe
+<pb n="26" facs="tcp:94529:15"/>
+of their Duty, in this matter; and to the performance of it: where no tolerable reaſon can be given for the neglect of ſo neceſſary a part of our Religion; and which tends ſo much to the honour of it, and to the Glory of God. To at<g ref="char:EOLhyphen"/>tempt ſuch a good thing, though you ſhould not ſucceed in it, will give you great ſatisfaction. But whoſoever conſiders the Condition of the Cities of <hi>London</hi> and <hi>Weſt<g ref="char:EOLhyphen"/>minſter,</hi> as they were formerly, and as they are now, will not deſpair of Succeſs. For before our unnatu<g ref="char:EOLhyphen"/>ral Civil War, I have been inform<g ref="char:EOLhyphen"/>ed by a Reverend Divine, there were few Churches in thoſe Cities, where daily publick Prayers were read; and where they were, very few People to joyn with the Mi<g ref="char:EOLhyphen"/>niſter in them. But now there are very few Churches that want them; or a Congregation to attend them. And though ſuch Aſſemblies were but thin, when this firſt begun, a
+<pb n="27" facs="tcp:94529:15"/>
+little after the happy Reſtauration of our Monarchy and Church; yet I my ſelf can witneſs, that their Num<g ref="char:EOLhyphen"/>bers daily encreaſed: in ſo much that in ſome places there are pub<g ref="char:EOLhyphen"/>lick Prayers four times a day, and good Congregations; where, in my Memory, there were none at all.</p>
+                  <p>This is a great Encouragment to try what may be done in other great Towns; where People are not far diſtant from the Church.</p>
+                  <p>Begin with perſwaſions to come, at leaſt, upon <hi>Litany</hi> days: And ſo, by degrees, they may be induced to wait upon God conſtantly at his Houſe, to make their Prayers and Acknowledgments to him. Re<g ref="char:EOLhyphen"/>preſent to them frequently how much the publick Service of God, excels all that we can perform in Private: Becauſe then God appears more glorious in Praiſes, when his People joyn together to ſet them forth. Bid them mark how <hi>David</hi>
+                     <pb n="28" facs="tcp:94529:16"/>
+and other inſpired Perſons, have, in the Book of <hi>Pſalms,</hi> ſtirred up the Affections of the whole Body of God's People, to meet together for his Divine Service: ſaying, O <hi>praiſe the LORD, all ye nations: praiſe him all ye people,</hi> CXVII. 1. <hi>O magnify the LORD with me, and let us exalt his name together,</hi> XXXIV. 3. <hi>Praiſe ye the LORD. Sing unto the LORD a new ſong, and his praiſe in the congregation of Saints,</hi> CXLIX. 1. Or, as it is in the Hymn appointed every day, after the ſecond Leſſon at Morning Pray<g ref="char:EOLhyphen"/>er, C <hi>Pſal. 4. O go your way into his Gates with thanksgiving, and into his Courts with praiſe: be thankful unto him, and ſpeak good of his Name.</hi> In ſhort inſtruct them, that every <hi>Hal<g ref="char:EOLhyphen"/>lelujah,</hi> they meet withal in the Ho<g ref="char:EOLhyphen"/>ly Scriptures, or, <hi>Praiſe ye the LORD,</hi> ſuppoſe publick Aſſemblies (to which all the foregoing Exhortati<g ref="char:EOLhyphen"/>on are directed) where many met together for Divine Worſhip: not
+<pb n="29" facs="tcp:94529:16"/>
+contenting themſelves to praiſe God alone by themſelves; but with all thoſe who were Mem<g ref="char:EOLhyphen"/>bers of the ſame Body with them.</p>
+                  <p>But if by all your endeavours you cannot bring this to paſs, yet there is one thing of which I muſt admoniſh you, that I am ſure is in your power. It is this, That all Prieſts and Deacons are bound by the Law of this Realm and of this Church, to ſay daily Morning and Evening Prayer <hi>privately,</hi> when they cannot <hi>openly: Not being let by ſickneſs, or ſome other urgent Cauſe.</hi> See the firſt <hi>Rubrick</hi> in the Com<g ref="char:EOLhyphen"/>mon-Prayer Book, after the Pre<g ref="char:EOLhyphen"/>face, <hi>concerning the Service of the Church:</hi> Do not fail therefore, I beſeech you, to read the daily Pray<g ref="char:EOLhyphen"/>ers, Morning and Evening, pri<g ref="char:EOLhyphen"/>vately in your own Family: That the Divine Service, according to Law, may be performed daily in every <hi>Pariſh,</hi> though not every
+<pb n="30" facs="tcp:94529:17"/>
+                     <hi>Church.</hi> There cannot be conſtant<g ref="char:EOLhyphen"/>ly nor commonly <hi>urgent Cauſes,</hi> much leſs <hi>Sickneſs,</hi> I hope, to hin<g ref="char:EOLhyphen"/>der this: And when there is not, look upon your ſelves as bound in Conſcience, to read the Prayers at home.</p>
+                  <p>And when you do officiate Pub<g ref="char:EOLhyphen"/>lickly on the Lord's Days, or o<g ref="char:EOLhyphen"/>ther times, in the Church, let it be in ſuch a ſolemn manner; that it may move the People to attend, and make them in love with our Prayers. There is a careleſs, over<g ref="char:EOLhyphen"/>ly way of reading them, ſo faſt, and with ſuch little Devotion, as hath exceedingly diſgraced them: and given great offence to the better ſort of People among us, and hardned the bad in Prophaneſs and Irreligi<g ref="char:EOLhyphen"/>on. I hope none of you are guil<g ref="char:EOLhyphen"/>ty of this; but it becomes me to admoniſh you of the danger of it, and to beſeech you conſtantly to compoſe your ſelves with the grea<g ref="char:EOLhyphen"/>teſt ſeriouſneſs, and reverence, and
+<pb n="31" facs="tcp:94529:17"/>
+affection, to perform Divine Service in the Church. This will keep up the Majeſty of our Worſhip, and preſerve it from Contempt. For I can ſee nothing that ſhould move thoſe that Diſſent from us, to call it <hi>dead</hi> and <hi>formal,</hi> but only the <hi>deadneſs</hi> and <hi>formali<g ref="char:EOLhyphen"/>ty</hi> that hath appeared too often in him that Officiates. Stir up your ſelves therefore to Officiate in eve<g ref="char:EOLhyphen"/>ry part of the Divine Service, with a becoming Gravity and Delibe<g ref="char:EOLhyphen"/>ration; and yet with ſuch Life and Affection, as may expreſs your Concern to have your Petitions Granted, and the word of God Re<g ref="char:EOLhyphen"/>garded.</p>
+                  <p>
+                     <hi>Avicenna</hi> (as he is vulgarly cal<g ref="char:EOLhyphen"/>led) an <hi>Arabian</hi> Philoſopher, hath an excellent Diſcourſe upon this Subject, in the third part of his <hi>Metaphyſicks:</hi> Where having ſaid that they who inſtruct the People, ought to teach them Forms of Pray<g ref="char:EOLhyphen"/>er, wherein to addreſs themſelves
+<pb n="32" facs="tcp:94529:18"/>
+to God. He adds this Direction to them. <hi>As a Man uſes to prepare himſelf to come to the King, in puri<g ref="char:EOLhyphen"/>ty and cleanneſs; with graceful Lan<g ref="char:EOLhyphen"/>guage, and an humble Gravity: with a comely Deportment of Body; cea<g ref="char:EOLhyphen"/>ſing from all diſorderly Motions there, as well as from perturbation of mind: ſo it is fit there ſhould be laudable Modes and Forms of ſerving God at all times. For theſe do highly conduce to imprint on the minds of the People a ſenſe of the moſt high: and to confirm them in their Devotion to the Laws and Rules of Life. Which if they were not preſerved by this ſolemn Commemo<g ref="char:EOLhyphen"/>ration; Men would quite forget in one or two Generations.</hi> Thus I find him quoted by Mr. <hi>Selden</hi> in his <hi>Com<g ref="char:EOLhyphen"/>ment. in Eutichii Origines,</hi> fol. 57. And he doth but expreſs the ſenſe of the Ancient Chriſtians; from whom the <hi>Mahometans</hi> derived that ſolemnity and ſeriouſneſs which they uſe in their Divine Service.</p>
+                  <p>
+                     <pb n="33" facs="tcp:94529:18"/>
+It is no ſmall part of the Study of Prieſts in the preſent <hi>Roman</hi> Church, to learn how to compoſe their Looks, and Geſtures, and Voices; in the ſeveral Offices which they are to perform. Which as it hath too much of the <hi>Thea<g ref="char:EOLhyphen"/>tre</hi> in it, ſo that pains may all be ſpared, by poſſeſſing our Minds with a deep ſenſe and feeling of the Majeſty of God to whom we ſpeak; and of our great need of the things which we pray him to beſtow upon us. This will natural<g ref="char:EOLhyphen"/>ly compoſe our Countenances, and regulate the tone of our Voice, and make us pronounce the Pray<g ref="char:EOLhyphen"/>ers as gracefully, as we would a Petition to the greateſt Majeſty on Earth. The Organs of Speech in<g ref="char:EOLhyphen"/>deed in ſeveral Men, are of a very different Frame and Figure; ſo that all cannot ſpeak no more than ſing alike: But ſome more harſh<g ref="char:EOLhyphen"/>ly, ſome more ſweetly. Yet an awful Senſe of God upon our
+<pb n="34" facs="tcp:94529:19"/>
+Minds, and an hearty Love to him, would form every Man's Voice to as good an Accent, as his natural Capacity will per<g ref="char:EOLhyphen"/>mit.</p>
+               </div>
+               <div n="4" type="section">
+                  <head>SECT. IV.</head>
+                  <p>The next Office in our Liturgy, is <hi>The Order for the Adminiſtration of the Holy Commu<g ref="char:EOLhyphen"/>nion;</hi> which being the higheſt Du<g ref="char:EOLhyphen"/>ty of our Religion, that which is moſt peculiar <hi>Chriſtian Worſhip;</hi> the greateſt Care ought to be ta<g ref="char:EOLhyphen"/>ken about the due Performance of it. That is:</p>
+                  <p n="1">1. Firſt of all you ought to in<g ref="char:EOLhyphen"/>vite your People to a frequent Par<g ref="char:EOLhyphen"/>ticipation of it. We are not told in Scripture how oft we are to do this in remembrance of our Savi<g ref="char:EOLhyphen"/>our: But when we conſider, that this is the end and intention of it, to Commemorate the wonderful Love of our Lord, in his Death and Paſſion for our ſakes, we cannot
+<pb n="35" facs="tcp:94529:19"/>
+think fit to let there be a long time between one communion and another. Eſpecially when we con<g ref="char:EOLhyphen"/>ſider that the firſt Chriſtians, it is manifeſt, met together every <hi>LORDS Day,</hi> at leaſt, to mag<g ref="char:EOLhyphen"/>nifie the mercy of God, in giving his only begotten Son to be our Redeemer; and the inconceivea<g ref="char:EOLhyphen"/>ble love of the Son of God, in making himſelf an Offering for our Sins. This they thought their great buſineſs, when they aſſem<g ref="char:EOLhyphen"/>bled together; ſo that our Aſſem<g ref="char:EOLhyphen"/>blies never look ſo like Chriſtian Aſſemblies, as when the Holy Com<g ref="char:EOLhyphen"/>munion is celebrated.</p>
+                  <p n="2">2. In order to which frequent<g ref="char:EOLhyphen"/>ly open to your People, the <hi>Na<g ref="char:EOLhyphen"/>ture, Neceſſity,</hi> and the great <hi>Be<g ref="char:EOLhyphen"/>nefits</hi> of communion with Chriſt, and one with another, in this Ho<g ref="char:EOLhyphen"/>ly Sacrament of Chriſts Body and Blood. Anſwer their Scruples, and remove their Objections: but eſpecially awaken them out of
+<pb n="36" facs="tcp:94529:20"/>
+that lazy indifference wherein too many live; whether they live like Chriſtians or no.</p>
+                  <p n="3">3. When the time is appointed for its Adminiſtration, warn them to prepare themſelves for it; and direct them how to do it: and require them who intend to par<g ref="char:EOLhyphen"/>take of it, to ſignifie their Names to you, at leaſt, ſometime the day before. So the firſt <hi>Rubrick</hi> be<g ref="char:EOLhyphen"/>fore the Order for Adminiſtring the Holy Communion, requires with great reaſon: becauſe you ought to have time to do what follows.</p>
+                  <p n="4">4. If any Perſon in your Pa<g ref="char:EOLhyphen"/>riſh, be a notorious evil liver, or have done any wrong to his Neighbours, either by word or deed, ſo that the Congregation be thereby offended, you ought, having knowledge thereof, to ad<g ref="char:EOLhyphen"/>moniſh him (as the next <hi>Rubrick</hi> directs) to amend his naughty Life; and not preſume to come to the
+<pb n="37" facs="tcp:94529:20"/>
+Lord's Table, till the Congregation be ſatisfied of his Repentance; and that he hath made ſuch a recom<g ref="char:EOLhyphen"/>penſe to thoſe he hath wrong'd, as they accept of. The like is to be done when you perceive Malice and Hatred to reign among any of your Pariſh: endeavouring to bring them to a reconciliation; before you ſuffer them to partake of the Holy Communion.</p>
+                  <p n="5">5. And more than this, the <hi>Third Rubrick</hi> requires you, if theſe private endeavours have no effect, openly to repel ſuch Per<g ref="char:EOLhyphen"/>ſons from the Communion, if they offer themſelves to receive it, who will not be reconciled, nor reform<g ref="char:EOLhyphen"/>ed: giving notice of their obſti<g ref="char:EOLhyphen"/>nacy to the <hi>Ordinary,</hi> within the time there preſcribed.</p>
+                  <p n="6">6. In the Adminiſtration of the Holy Communion, compoſe your ſelves, to the moſt ſerious and ſo<g ref="char:EOLhyphen"/>lemn deportment, and perform every part of this moſt Chriſtian
+<pb n="38" facs="tcp:94529:21"/>
+ſervice, with the higheſt degree of Devotion. So St. <hi>Juſtin Mar<g ref="char:EOLhyphen"/>tyr</hi> tells us, in his Second Apolo<g ref="char:EOLhyphen"/>gy (where he gives an account of what was done in the Chri<g ref="char:EOLhyphen"/>ſtian Aſſemblies in his time) that Bread, Wine and Water, be<g ref="char:EOLhyphen"/>ing ſet before him that preſided, <hi>He ſendeth up Prayers and Thankſ<g ref="char:EOLhyphen"/>givings</hi> 
+                     <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>, <hi>with all his Power,</hi> or <hi>Might.</hi> Which is an expreſſion that hath been much a<g ref="char:EOLhyphen"/>buſed by thoſe who ſeparate from us, to prove that no forms of Pray<g ref="char:EOLhyphen"/>er were uſed in the Church in thoſe days: but he who officiated, conceived a Prayer of his own, <hi>as well as he was able.</hi> So they inter<g ref="char:EOLhyphen"/>pret that Phraſe <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>: which is manifeſtly an expreſſion of <hi>that earneſtneſs of Devotion</hi> with which the Biſhop or Prieſt came to Conſecrate the Sacrament of Chriſt's Body and Blood. It be<g ref="char:EOLhyphen"/>ing a Phraſe very much uſed a<g ref="char:EOLhyphen"/>mong the Jews, when they ſpeak
+<pb n="39" facs="tcp:94529:21"/>
+of their Prayers; For their Ancient Doctors, have this ſaying among them (as our excellent Mr. <hi>Thorn<g ref="char:EOLhyphen"/>dike</hi> obſerves) <hi>Whoſoever ſaith A<g ref="char:EOLhyphen"/>men WITH ALL HIS MIGHT, the gate of the Garden of</hi> Eden <hi>is opened to him:</hi> And <hi>Maimonides</hi> de<g ref="char:EOLhyphen"/>ſcribing their Morning Service uſeth the ſame form of Speech. <hi>The People anſwer, Amen: be his great name Bleſſed for ever and ever, WITH ALL THEIR MIGHT:</hi> See <hi>Service of God at Religious Aſ<g ref="char:EOLhyphen"/>ſemblies,</hi> Chap. VII. To which may be added what we read in the <hi>A<g ref="char:EOLhyphen"/>poſtolical Conſtitutions;</hi> where there is a large Form of Thankſgiving at the Euchariſt, for all Gods Bleſ<g ref="char:EOLhyphen"/>ſings; Eſpecially in our Lord Chriſt, from his Incarnation to his Sufferings, Death and Reſur<g ref="char:EOLhyphen"/>rection: And then it follows, <hi>Therefore being mindful of theſe things, which he ſuffered for us, We give Thee thanks, O Almighty God,</hi> 
+                     <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>,
+<pb n="40" facs="tcp:94529:22"/>
+                     <hi>not ſo much as we ought, but as much as we are able.</hi> Which exactly an<g ref="char:EOLhyphen"/>ſwers to the <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap> ALL THE MIGHT in <hi>Juſtim Martyr,</hi> and explains the meaning of it.</p>
+                  <p>But there have been ſo many excellent Books written about the <hi>Holy Communion,</hi> that I will en<g ref="char:EOLhyphen"/>large no further upon this Sub<g ref="char:EOLhyphen"/>ject.</p>
+               </div>
+               <div n="5" type="section">
+                  <head>SECT. V.</head>
+                  <p>In that Office there is a <hi>Rubrick</hi> directing where the <hi>Sermon</hi> is to come in: and there<g ref="char:EOLhyphen"/>fore I ſhall in the next place ſay ſomething to you concerning <hi>Preaching.</hi> Which is a Duty to be performed by every Prieſt, ac<g ref="char:EOLhyphen"/>cording to the Authority given to him at his Ordination, in thoſe words, <hi>Take thou Authority to Preach the Word of God, and to Minister the Holy Sacraments, in the Congre<g ref="char:EOLhyphen"/>gation, where thou ſhalt be lawfully appointed thereunto:</hi> And the Pray<g ref="char:EOLhyphen"/>er made after the Ordaining of
+<pb n="41" facs="tcp:94529:22"/>
+Prieſts, <hi>That God's Word ſpoken by their mouths, may have ſuch ſucceſs, that it may never be ſpoken in vain.</hi>
+                  </p>
+                  <p>Now to make it thus ſucceſsful a great many directions might be uſefully given, concerning both the <hi>Matter</hi> of Sermons, and their <hi>Form;</hi> their <hi>Stile</hi> alſo, and man<g ref="char:EOLhyphen"/>ner of <hi>Delivery,</hi> with diſtinct <hi>Pro<g ref="char:EOLhyphen"/>nunciation,</hi> and ſuch like: into which if I ſhould launch out, they alone would be ſufficient to fill a little Book. I ſhall therefore on<g ref="char:EOLhyphen"/>ly briefly deſire you to conſider, the ſtate and condition of your Auditory, and to ſuit your Diſ<g ref="char:EOLhyphen"/>courſes thereunto. Country Peo<g ref="char:EOLhyphen"/>ple are not to be troubled with Controverſies and Diſputes; but to be plainly taught, what to <hi>be<g ref="char:EOLhyphen"/>lieve</hi> and <hi>practice.</hi>
+                  </p>
+                  <p n="1">1. Therefore endeavour to in<g ref="char:EOLhyphen"/>ſtruct and ſettle their minds in the Principles of Religion. And for this end ſtudy well the Works
+<pb n="42" facs="tcp:94529:23"/>
+of Two Late Biſhops of <hi>Chester.</hi> One of which (Dr. <hi>Wilkins)</hi> hath wrote a Treatiſe of <hi>Natural Reli<g ref="char:EOLhyphen"/>gion:</hi> and the other (Dr. <hi>Pierſon)</hi> hath given a full account of the <hi>Chriſtian,</hi> in his admirable Book upon the <hi>Apoſtles Creed.</hi>
+                  </p>
+                  <p n="2">2. Eſpecially inſtruct them in the great Fundamental Article of our Religion, the <hi>Divinity</hi> of our Bleſſed Lord and Saviour; and of the Holy Ghoſt: ſhowing them how all our comfort is built upon this. And truly I look upon it as a ſingular Providence of God, that he did not <gap reason="illegible" resp="#UOM" extent="1 span">
+                        <desc>〈…〉</desc>
+                     </gap> Hereticks who now boldly ſtrike at this great Article of our Faith, to ſtart up in an ignorant Age; but in a time when there are ſo many able Men in the Church to beat them down. God hath furniſhed us with a great number of ſuch excellent Perſons, as have through<g ref="char:EOLhyphen"/>ly ſtudied the Holy Scriptures, and the Ancient Doctors of the
+<pb n="43" facs="tcp:94529:23"/>
+Church: And they who have not had opportunity to make ſuch improvement in Divine Know<g ref="char:EOLhyphen"/>ledge, may furniſh themſelves out of their Writings, which theſe He<g ref="char:EOLhyphen"/>reticks have occaſioned. Particu<g ref="char:EOLhyphen"/>larly out of the Biſhop of <hi>Wor<g ref="char:EOLhyphen"/>ceſter</hi>'s Diſcourſe about the <hi>Bleſſed Trinity;</hi> which is not long, but very full and ſatisfactory.</p>
+                  <p n="3">3. Yet I muſt admoniſh you, when you find it neceſſary to diſ<g ref="char:EOLhyphen"/>courſe to your People upon this Subject, that you be mindful of His Majeſties late <hi>Injunctions;</hi> and not preſume to invent any new ways of explaining ſo ſublime a Myſtery, as the <hi>Holy Trinity,</hi> or uſe any other terms to expreſs it, but ſuch as the Ancient Chriſtians uſed, and are in the Articles of our Religion, the Three Creeds, and our Liturgy. Which teach us, that our Bleſſed Saviour is the <hi>Son of God,</hi> in the higheſt and moſt proper ſenſe of theſe Words, <hi>by
+<pb n="44" facs="tcp:94529:24"/>
+Eternal Generation.</hi> In like man<g ref="char:EOLhyphen"/>ner we are to believe that the <hi>Holy Ghoſt</hi> is God, proceeding from the Father and the Son. This may be evidently proved out of the Scriptures, wherein God hath thus far revealed his own moſt Bleſſed Nature, as well as his Mind and Will unto us. But how the Son is <hi>Begotten</hi> of the Father, and <hi>how</hi> the Holy Ghoſt <hi>proceeds</hi> from both he hath not revealed unto us (becauſe it is as <hi>incomprehenſible,</hi> as the Divine Eſſence is) and there<g ref="char:EOLhyphen"/>fore we muſt not adventure to ſay any thing about it. For though we know that <hi>the Son is God, and the Holy Ghoſt is God, and yet there are not Three Gods, but one God in Three Perſons</hi> (becauſe the Holy Scriptures plainly declare the Son to be a diſtinct Perſon from the Father, and the Holy Ghoſt from both) yet what it is that makes the diſtinction of the Perſon of the Son, from the Perſon of the
+<pb n="45" facs="tcp:94529:24"/>
+Father, <hi>&amp;c.</hi> that is not declared to us by God, who only knows it, and therefore is not to be en<g ref="char:EOLhyphen"/>quired into. Accordingly the Ho<g ref="char:EOLhyphen"/>ly Fathers of the Church frequent<g ref="char:EOLhyphen"/>ly admoniſh us to forbear ſuch enquiries, in that Memorable ſay<g ref="char:EOLhyphen"/>ing of theirs, <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap> ſearch not into the manner, <hi>how</hi> ſuch things can be, but ſhun ſuch enquiries. For the <hi>manner</hi> of the Sons Generation, and the Holy Ghoſts Proceſſion, can be com<g ref="char:EOLhyphen"/>prehended by none but them<g ref="char:EOLhyphen"/>ſelves.</p>
+                  <p>But ſuch things being let alone, as out of our reach, let it be your buſineſs to eſtabliſh the People in this great Truth, that Jeſus Chriſt is really <hi>the Eternal Son of God, begot<g ref="char:EOLhyphen"/>ten of him before all Worlds:</hi> By re<g ref="char:EOLhyphen"/>preſenting this to them as the great ſupport of their Souls; which may ſafely rely upon one <hi>ſo mighty to ſave.</hi> For he who is perſwaded that our Saviour, <hi>is perfect God, as
+<pb n="46" facs="tcp:94529:25"/>
+well as perfect Man,</hi> can no more doubt of his Power to communi<g ref="char:EOLhyphen"/>cate all Divine Grace to us; than he can doubt of the Vertue of his Sacrifice, to make ſatisfaction for our Sins, and work our Recon<g ref="char:EOLhyphen"/>ciliation with God: whereby whatſoever might hinder his Di<g ref="char:EOLhyphen"/>vine Communications to us, is taken out of the way. We are ſure, if this be true, that he is an Ever<g ref="char:EOLhyphen"/>laſting Spring of Divine Grace, to the whole World; would they but believe on him: Whereas it is inconceivable how any mere Crea<g ref="char:EOLhyphen"/>tures, ſhould be ſo highly exault<g ref="char:EOLhyphen"/>ed, as to be poſſeſſed of Omni<g ref="char:EOLhyphen"/>potence and Omniſcience; that is to be able to know all our needs, as well as to ſupply them. Which it is eaſie for our Bleſſed Saviour to do, if he be the <hi>Eternal Son of God;</hi> who hath taken out Nature into a perſonal Union with him<g ref="char:EOLhyphen"/>ſelf.</p>
+                  <p n="4">
+                     <pb n="47" facs="tcp:94529:25"/>
+4. Which great truth being firmly eſtabliſhed in their belief, endeavour I beſeech you to im<g ref="char:EOLhyphen"/>prove it all you are able, to the amendment of their lives. Such an amazing love of God, ought to have a mighty effect upon us all; and will make a great change in us, if it be heartily believed, and preſſed home by ſerious conſide<g ref="char:EOLhyphen"/>ration. Let that therefore be the great buſineſs of your Preaching, to reduce this and all other Chri<g ref="char:EOLhyphen"/>ſtian Truths, to Chriſtian Pra<g ref="char:EOLhyphen"/>ctice. Make them ſenſible what manner of Perſons they ought to be <hi>in all holy Converſation and God<g ref="char:EOLhyphen"/>lineſs</hi> (as St. <hi>Peter</hi> ſpeaks) being ſo nearly related to the Son of God. Whatſoever Sin you know them to be addicted unto, lay the hey<g ref="char:EOLhyphen"/>nouſneſs of it before them; eſpe<g ref="char:EOLhyphen"/>cially after God hath loved us ſo much, as to give his only begotten Son <hi>to redeem us from all iniquity, and purifie us to himſelf a peculiar
+<pb n="50" facs="tcp:94529:26"/>
+people zealous of good Works.</hi> What<g ref="char:EOLhyphen"/>ſoever duty you know them to neg lect, or to be remiſs in the perfor<g ref="char:EOLhyphen"/>mance of it, repreſent to them how dangerous it is to diſobey our Bleſſed Saviour, who hath made this the teſt of our love to him; that we keep his Commandments. Re<g ref="char:EOLhyphen"/>member them frequently of what he ſaid to his Diſciples, in his laſt Diſcourſe he had with them, XV <hi>John 14. Ye are my Friends, if ye do whatſoever I command you.</hi>
+                  </p>
+                  <p n="5">5. Endeavour to convince their judgment about theſe things, by clear Reaſons; and then to awa<g ref="char:EOLhyphen"/>ken their Affections by your Zeal and Fervour. And that will be excited in you, by an inward ſence and feeling in your own hearts, of that which you deliver to your People. It is an admira<g ref="char:EOLhyphen"/>ble obſervation of <hi>Eraſmus</hi> (in his Book <hi>De ratione Concionandi)</hi> upon thoſe words of our Saviour con<g ref="char:EOLhyphen"/>cerning <hi>John</hi> the Baptiſt, V <hi>John</hi>
+                     <pb n="51" facs="tcp:94529:26"/>
+35. <hi>He was a burning and a ſhining Light.</hi> ARDERE PRIUS EST, LUCERE POSTERIUS. To <hi>burn</hi> (with Zeal, that is, for God, and fervent affection to the Peo<g ref="char:EOLhyphen"/>ple) <hi>is the firſt thing; and then we ſhall ſhine,</hi> by Chriſtian inſtructions. Which will be faint and feeble, if they do not proceed from an ardent Spirit.</p>
+                  <p n="6">6. And there is very much in another thing of which the ſame great Man, put me in mind, in another part of his Works; Lib. V. Epiſt. 27. Where he tells <hi>Jodocus Jonas, Non parum ponderis adder orationi tuae, ſi quae doces, potiſſimum ex arcanis voluminibus haurias, ſi vita doctrinae reſponderit; ſi docendi Officium, nullâ gloriae, nulla quaeſtus ſuſpitione vitietur.</hi> 
+                     <q>It will add no ſmall weight to thy Sermons, if thou draw thoſe things that thou tacheth chiefly out of the Holy Scriptures; if thy life be corre<g ref="char:EOLhyphen"/>ſpondent to thy Doctrine: and the
+<pb n="50" facs="tcp:94529:27"/>
+Office of inſtructing, be tainted with no ſuſpition of vain glory, or worldly advantage.</q> The proof of what you ſay out of the Holy Scriptures, rightly expound<g ref="char:EOLhyphen"/>ed and fitly apply'd, will certain<g ref="char:EOLhyphen"/>ly make it very powerful. For what is there that hath ſo much force in it; as the Authority of God? All Believers have a great reverence to his Word; which the Ancient Chriſtians thought the higheſt learning. Inſomuch that the <hi>Abyſſines</hi> (who retain much of the ancient Simplicity) are never ſo pleaſed, as to hear the Word of God alledged; and the more Scripture any Man hath in his Sermons, the more learned they eſteem him. So <hi>Ludolphus</hi> informs us in his late <hi>Hiſtorica Ethi<g ref="char:EOLhyphen"/>opica,</hi> Lib. III. Cap. V. N. 16.</p>
+                  <p n="7">7. And there is nothing in the Holy Scripture that you ought to explain with greater care, or in<g ref="char:EOLhyphen"/>culcate more frequently, than the
+<pb n="51" facs="tcp:94529:27"/>
+                     <hi>Covenant of Grace,</hi> which God hath made with us in Chriſt. The terms and conditions of which you ſhould endeavour to make your People thoroughly to under<g ref="char:EOLhyphen"/>ſtand; both on Gods part, and on their own: together with the <hi>Mediator</hi> of this Covenant, and the means whereby he purchaſed ſuch gracious Conditions of Sal<g ref="char:EOLhyphen"/>vation for us.</p>
+                  <p>But above all things we muſt take the greateſt care that our life, do not contradict our Do<g ref="char:EOLhyphen"/>ctrine: for it is not ſufficient that our Converſation in this World be innocent and unblameable, but we muſt endeavour to make it exemplary and uſeful: It muſt be ſo ordered as to convince the Peo<g ref="char:EOLhyphen"/>ple that we firmly believe, the excellence of thoſe Vertues which we commend to them: and that our chief aim and deſign, is to ſave their Souls. This will pro<g ref="char:EOLhyphen"/>cure us love and eſteem; and
+<pb n="54" facs="tcp:94529:28"/>
+make the People look upon us with Reverence, as <hi>Men of God.</hi> Our Office, which is indeed ve<g ref="char:EOLhyphen"/>ry honourable, is not ſufficient to ſecure us from contempt; if we act not according to it. Nay, men are prone to pry into our lives, to ſee if they can find a juſtification of their own evil Practices, by ours. Which is the argument that <hi>Iſidorus Peleuſiota</hi> uſes to a Biſhop to be very cautious (Lib. IV. Epiſt. 219.) <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>. <hi>becauſe his Life is ſcanned, and ſtrict<g ref="char:EOLhyphen"/>ly examined, by a thouſand eyes and tongues.</hi>
+                  </p>
+                  <p>I ſhall ſay nothing particular<g ref="char:EOLhyphen"/>ly of our care to avoid, any tang of <hi>Vain Glory,</hi> and deſire of ap<g ref="char:EOLhyphen"/>plauſe in our Preaching; but con<g ref="char:EOLhyphen"/>clude this matter, with this plain admonition. That in an age ſo degenerate, as that we now live in, we ought to give all diligence, <hi>to ſhine as Lights in the World,</hi> as
+<pb n="55" facs="tcp:94529:28"/>
+well as to be <hi>harmleſs and blameleſs, the Sons of God, without rebuke, in the midſt of a crooked and perverſe Nation; holding forth the Word of Life:</hi> by our examplary converſa<g ref="char:EOLhyphen"/>tion, that is, as well as by Preach<g ref="char:EOLhyphen"/>ing, II <hi>Philip.</hi> 15, 16. This St. <hi>Paul</hi> there makes the duty of all Chri<g ref="char:EOLhyphen"/>ſtians: but above all it concerns the Miniſters of Chriſt; whom he himſelf calls (V <hi>Mat.</hi> 13. 14.) in a peculiar manner, <hi>the Salt of the Earth, and the Light of the World.</hi> And there never was greater need than now, that we ſhould ſtudy to ſeaſon Men, not only with wholſome Doctrine, but an holy Example: that we may preſerve them from the <hi>Corruption, which is in the World through luſt.</hi> There is a moſt dangerous putrefaction of manners (as I may call it) which hath ſo univerſally ſpread among us, that I look upon the Nation as loſt, if we ſhould <hi>loſe our Savour.</hi> Nothing can then
+<pb n="54" facs="tcp:94529:29"/>
+preſerve it from utter ruin and deſtruction. And therefore let us diſtinguiſh our ſelves from others, by our diligence in our calling, by our exemplary Piety and Holi<g ref="char:EOLhyphen"/>neſs; that if it be poſſible, we may ſave our Nation from periſh<g ref="char:EOLhyphen"/>ing.</p>
+               </div>
+               <div n="6" type="section">
+                  <head>SECT. VI.</head>
+                  <p>The next Office wherein you are concerned, is the <hi>Ministration of Baptiſm of Infants.</hi> Concerning which I ſhall only briefly admoniſh you of theſe things following.</p>
+                  <p n="1">1. Firſt, that it is your duty to inſtruct your People frequently, in the nature of this Sacrament: that they may not imagine it an indifferent thing whether their Children be Baptized or no; nor bring them careleſsly to the Font, as an old Ceremony that hath been long uſed in the Church: But they may look upon it as, in<g ref="char:EOLhyphen"/>deed
+<pb n="55" facs="tcp:94529:29"/>
+it is, a ſolemn dedication of their Children to Chriſt, and their entrance into the Covenant of Grace; which they ſtand bound ſacredly to keep. And conſequently call upon them of<g ref="char:EOLhyphen"/>ten to conſider their Children af<g ref="char:EOLhyphen"/>ter this, as <hi>Chriſt's Children;</hi> by whom they are regenerate and boru again: and therefore ought to be carefully <hi>brought up in the nurture and admonition of the Lord.</hi> VI <hi>Epheſ.</hi> 4.</p>
+                  <p n="2">2. More particularly put them in mind that in Baptiſm a ſolemn profeſſion is made of belief in the <hi>Bleſſed Trinity:</hi> that is <hi>of God, in Three Perſons, Father, Son, and Holy Ghoſt:</hi> Unto whoſe Service we are there devoted. For it is no frivilous obſervation of <hi>Theophylact</hi> upon thoſe Words of our Saviour, XXVIII <hi>Mat. 19. Go and teach all Nations, baptizing them in the name of the Father, and of the Son, and of the Holy Ghoſt,</hi> That <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>;
+<pb n="58" facs="tcp:94529:30"/>
+he does not ſay, Baptiſe them into the <hi>Names,</hi> but into the <hi>Name</hi> of the Father, Son, and Ho<g ref="char:EOLhyphen"/>ly Ghoſt. For though they be three, yet their Name, <hi>viz.</hi> 
+                     <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>, <hi>Their Godhead</hi> is but one, as he there explains it. One God in three Perſons, of whoſe Love and Favour we are aſſured in Baptiſm: and ſhould value it above all the Ri<g ref="char:EOLhyphen"/>ches in the World.</p>
+                  <p n="3">3. And therefore admoniſh them what care they ought to take to give up their Children, as ſoon as they can to this <hi>Bleſſed Trinity:</hi> That they may be under their Care, and partake of <hi>the Grace of our Lord Jeſus Chriſt, and of the Love of God, and the Communion,</hi> or Communi<g ref="char:EOLhyphen"/>cation, <hi>of the Holy Ghoſt,</hi> as St. <hi>Paul</hi> ſpeaks, 2 <hi>Corinth.</hi> XIII. 14. And the <hi>firſt Rubrick</hi> before the Office for private Baptiſm directs them to admoniſh the People often, that they defer not the Baptiſm of their Chil<g ref="char:EOLhyphen"/>dren, longerthan the firſt or Second
+<pb n="59" facs="tcp:94529:30"/>
+Sunday next after their <hi>birth,</hi> or other Holy-day falling between; unleſs upon a great and reaſonable Cauſe to be approved by you.</p>
+                  <p n="4">4. Next of all you are bound by the following <hi>Rubrick,</hi> to warn them, that without great Cauſe and Ne<g ref="char:EOLhyphen"/>ceſſity, they procure not their Chil<g ref="char:EOLhyphen"/>dren to be Baptized at home in their Houſes. The reaſon of which is given in the <hi>firſt Rubrick</hi> before the Office of <hi>Publick Baptiſm,</hi> which ſets forth the convenience of admi<g ref="char:EOLhyphen"/>niſtring Baptiſm, only upon Sun<g ref="char:EOLhyphen"/>days or other Holy-days, when the moſt number of People come to<g ref="char:EOLhyphen"/>gether: <hi>Firſt,</hi> For that the Con<g ref="char:EOLhyphen"/>gregation there preſent may teſti<g ref="char:EOLhyphen"/>fy the receiving of ſuch as be new<g ref="char:EOLhyphen"/>ly Baptized into the Number of Chriſt's Church; and <hi>Secondly,</hi> that every Man preſent may be put in remembrance of his own Profeſſi<g ref="char:EOLhyphen"/>on made to God in his Baptiſm. Which are ſuch wiſe and holy Rea<g ref="char:EOLhyphen"/>ſons, that every Man of Conſci<g ref="char:EOLhyphen"/>ence,
+<pb n="58" facs="tcp:94529:31"/>
+who is Conſiderate, will yield unto them.</p>
+                  <p n="5">5. Adviſe Parents alſo about the <hi>Choice</hi> of Godfather and Godmo<g ref="char:EOLhyphen"/>thers, and of the <hi>uſefulneſs</hi> of them. <hi>Firſt,</hi> about their <hi>Choice,</hi> that they be ſuch Perſons as have a ſenſe of Religion and underſtand it; and will take ſome care, it may be ho<g ref="char:EOLhyphen"/>ped, of their Children, if they themſelves ſhould die before they be grown up. It is ſuppoſed that as long as Parents live, they will put their Children in mind of their Vow in Baptiſm: which is the rea<g ref="char:EOLhyphen"/>ſon that no new Obligation, beſides that they have already, is laid upon them, by making them Sureties for their Children. But without this ſolemn undertaking for them, other Men would not be ſo ready to aſ<g ref="char:EOLhyphen"/>ſiſt them, and look after their Edu<g ref="char:EOLhyphen"/>cation; as it is to be hoped this will make them. Which ſhows the o<g ref="char:EOLhyphen"/>ther thing; the <hi>uſefulneſs</hi> of this In<g ref="char:EOLhyphen"/>ſtitution: Which in the beginning
+<pb n="59" facs="tcp:94529:31"/>
+of our Religion, was in a manner abſolutely neceſſary. For when Parents were ſometimes ſnatch'd on a ſudden from their Children, by bloody Perſecutors: They might have been brought up in <hi>Paganiſm,</hi> if theſe Spiritual Parents had not been engaged to look after them, and inſtil Chriſtian Principles into them.</p>
+                  <p n="6">6. You give a charge, after Bap<g ref="char:EOLhyphen"/>tiſm, to the Godfathers and God<g ref="char:EOLhyphen"/>mothers, that they take care, the Child be brought to the Biſhop to be confirmed by him, ſo ſoon as he is fit for it: And therefore you would do well to remember them, as you have opportunity, of this part of their Duty; and in order to it to ſee they be inſtructed in the Church Catechiſm ſet forth for that purpoſe.</p>
+               </div>
+               <div n="7" type="section">
+                  <head>SECT. VII.</head>
+                  <p>Which is the next part of your care diligently, upon Sundays, and Holy-days, to
+<pb n="62" facs="tcp:94529:32"/>
+inſtruct and examine openly in the Church, ſo many of the Children of your Pariſh ſent unto you, as you ſhall think convenient, in ſome part of the CATECHISM. They are the very words of the <hi>firſt Ru<g ref="char:EOLhyphen"/>brick,</hi> in the end of that Office where, in the next <hi>Rubrick,</hi> Fa<g ref="char:EOLhyphen"/>thers, Mothers, Maſters, and Dames, are ordered to cauſe their Children, Servants, and Prentices (which have not learnt their Catechiſm) to come to the Church at the time ap<g ref="char:EOLhyphen"/>pointed, and obediently to hear and to be ordered by you, till they have learned all that is appointed in the <hi>Catechiſm</hi> for them to learn. It is to be hoped they will do this, if you call upon them, and beſeech them to take care of it: letting them know that you are ready and deſirous to perform your Duty, if they will do theirs.</p>
+                  <p>And mark, I beſeech you, what is required of you, not only to <hi>ex<g ref="char:EOLhyphen"/>amine</hi> the Children in the <hi>Catechiſm,</hi>
+                     <pb n="63" facs="tcp:94529:32"/>
+(that is, to ask them the queſtions, and receive their anſwers) but to <hi>inſtruct</hi> them therein; that is, teach them the meaning, and make them underſtand the weight of every word. If you would ſpend a quarter of an Hour, in this exerciſe all the Summer long, when the days are long, at Evening Prayer, after the Second Leſſon (as the <hi>Rubrick</hi> appoints) it would be of wonder<g ref="char:EOLhyphen"/>ful uſe both to your ſelves, and to your People. I ſay to your ſelves as well as the Pariſh: becauſe it would put you upon Conſidering, Collecting and Digeſting, ſuch pro<g ref="char:EOLhyphen"/>per places of Scripture as relate to every Article of the Creed, and to the Commandments, and to all o<g ref="char:EOLhyphen"/>ther parts of the <hi>Catechiſm.</hi> And upon ſtudying alſo and framing the plaineſt and cleareſt Explications, and Illuſtrations of every Point; couched in ſo few words, that they might eaſily be carried away and remembred. Which being once
+<pb n="62" facs="tcp:94529:33"/>
+well done, it would ſerve you all your Life: The ſame thing being to be repeated over and over again every Year. For I ſuppoſe you may be able once a Year to go through the whole Catechiſm: Which would certainly edify your People very much, and make them more capable to underſtand your Sermons, by having a clear Noti<g ref="char:EOLhyphen"/>on of many Terms, which you have conſtant occaſion to uſe in them. It would bring People alſo to <hi>Church</hi> in the Afternoon: For they would ſoon perceive this ſhort Inſtruction to be as uſeful as any Sermon. And conſequently they would obſerve the Lord's day better: For I can<g ref="char:EOLhyphen"/>not but think, that many would by this means, have your Explica<g ref="char:EOLhyphen"/>tion of the Catechiſm by Heart; and be able to inſtruct their Chil<g ref="char:EOLhyphen"/>dren again at home.</p>
+                  <p>I ſhall quicken you to this, by what I find was done about it in the Reign of King <hi>James</hi> I. who
+<pb n="63" facs="tcp:94529:33"/>
+ſent ſtrict Orders to the Arch-Bi<g ref="char:EOLhyphen"/>ſhop of <hi>Canterbury,</hi> both concern<g ref="char:EOLhyphen"/>ing <hi>Preaching</hi> and <hi>Catechiſing;</hi> eſpe<g ref="char:EOLhyphen"/>cially the latter: Which he would have by all means <hi>continued in the Afternoon, according to the former cu<g ref="char:EOLhyphen"/>ſtom in</hi> England (ſo his words are) which it ſeems then began to be diſuſed. And of this the Lord Keeper <hi>Williams</hi> ſaith the King was ſo deſirous, that he declared, <hi>If his Biſhops would not take care that it ſhould be done, he would recommend it to the care of the Civil Magiſtrate.</hi> And in a Letter to the Biſhop of <hi>London,</hi> he tells him the reaſon of all this. <hi>He ſaw many going away to Popery, or Anabaptiſm, or other points of Se<g ref="char:EOLhyphen"/>paration, and conſidering with much admiration, what ſhould be the cauſe of it (eſpecially ſince he oppoſed both ſo much himſelf) he could think of none in greater probability, than the lightneſs, affectedneſs, and unprofitable<g ref="char:EOLhyphen"/>neſs, of that kind of Preaching, which had of late Years been much taken up
+<pb n="66" facs="tcp:94529:34"/>
+in Court, Univerſity, and Country. The uſual ſcope of very many Preachers be<g ref="char:EOLhyphen"/>ing noted to be ſoaring up in points of Divinity, too deep for the Capacity of the People; or the muſtering up a great deal of reading; or the diſplaying of their own Wit; or an ignorant med<g ref="char:EOLhyphen"/>ling with Civil Matters; or the vent<g ref="char:EOLhyphen"/>ing their own Diſtaſts,</hi> &amp;c. <hi>So the People being bred up with this kind of teaching, and never inſtructed in the CATECHETICAL and Funda<g ref="char:EOLhyphen"/>mental Points of Religion, were eaſi<g ref="char:EOLhyphen"/>ly led aſide from their Religion, either by Papiſts, or Anabaptists, or other Sectaries.</hi> This I find in the <hi>Caba<g ref="char:EOLhyphen"/>la of Letters,</hi> p. 112. which is ne<g ref="char:EOLhyphen"/>ceſſary to be conſidered now: Be<g ref="char:EOLhyphen"/>cauſe ſince that time, the Explica<g ref="char:EOLhyphen"/>tion of the Catechiſm in the Af<g ref="char:EOLhyphen"/>ternoons hath been much neglect<g ref="char:EOLhyphen"/>ed; unto which we have reaſon to impute the inſtability of many Souls in their Religion.</p>
+               </div>
+               <div n="8" type="section">
+                  <pb n="67" facs="tcp:94529:34"/>
+                  <head>SECT. VIII.</head>
+                  <p>When the Chil<g ref="char:EOLhyphen"/>dren of your Pariſh are throughly inſtructed in the Church-Cate<g ref="char:EOLhyphen"/>chiſm, and <hi>are come to a competent Age,</hi> (as the words of the <hi>third Ru<g ref="char:EOLhyphen"/>brick</hi> are, in the end of that Office) you are to take care that they be brought to the Biſhop, to be <hi>Con<g ref="char:EOLhyphen"/>firmed by him.</hi>
+                  </p>
+                  <p>Now ſuch little Children as are commonly preſented to the Biſhop, cannot be thought to be of a <hi>com<g ref="char:EOLhyphen"/>petent Age.</hi> Which is explained, both in the Title of the <hi>Order of Confirmation,</hi> and the Preface to it, to ſignify ſuch as <hi>are come to years of Diſcretion.</hi> That is, to underſtand what they do; and conſent to re<g ref="char:EOLhyphen"/>new the ſolemn Promiſe and Vow, that was made in their Name at their Baptiſm, ratifying and con<g ref="char:EOLhyphen"/>firming the ſame in their own Per<g ref="char:EOLhyphen"/>ſons, and acknowledging themſelves bound to believe and do what their Godfathers and Godmothers un<g ref="char:EOLhyphen"/>dertook for them.</p>
+                  <p>
+                     <pb n="66" facs="tcp:94529:35"/>
+As you are bound therefore, (by the <hi>last Rubrick,</hi> at the end of the Catechiſm) when the Biſhop gives notice of his intention to Confirm, either to bring or ſend in Writing, with your Hands Subſcribed there<g ref="char:EOLhyphen"/>unto, the Names of all ſuch Per<g ref="char:EOLhyphen"/>ſons within your Pariſh, as you ſhall think fit to be Preſented to him to be Confirmed: So I beſeech you take care you ſet down the Names of none, but ſuch as have a ſenſe that they take upon themſelves an Obligation, to keep their Vow in Baptiſm; and are reſolved to do their Duty <hi>towards God,</hi> and <hi>to<g ref="char:EOLhyphen"/>wards their Neighbour,</hi> as they have been taught in their Catechiſm.</p>
+                  <p>In ſhort, I think none ripe to be Confirmed, but ſuch as are fit and diſpoſed, immediately after it, to receive the Holy Communion of Chriſt's Body and Blood. Our Church ſeems to ſignify ſo much, when in the end of this Office it Ordains, That <hi>none be admitted to
+<pb n="67" facs="tcp:94529:35"/>
+to the Holy Communion, until ſuch time as he be Confirmed, or be ready and deſirous to be Confirmed.</hi> One of theſe is plainly here made, a Preparation for the other: And as none ſhould be admitted to the Communion till they be Confirm<g ref="char:EOLhyphen"/>ed; ſo being Confirmed (or ready for it, and deſirous of it) I take it none are to be refuſed the Commu<g ref="char:EOLhyphen"/>nion.</p>
+                  <p>It is of the greateſt Concernment therefore, that young People be <hi>diſ<g ref="char:EOLhyphen"/>creet</hi> and ſerious before they be brought to be Confirmed. Of the Neceſſity of which King <hi>James</hi> before-mentioned, was as ſenſible, as he was of the Neceſſity of Ca<g ref="char:EOLhyphen"/>techetical Inſtruction. For his Son (who was afterwards King <hi>Charles</hi> the <hi>Martyr)</hi> was not Con<g ref="char:EOLhyphen"/>firmed till the <hi>thirteenth year</hi> of his Age. Then he was Confirmed on <hi>Eaſter Monday,</hi> 1613. in <hi>Whitehall-</hi>Chappel, after a <hi>long and ſtrict</hi> Ex<g ref="char:EOLhyphen"/>amination by the Arch-biſhop of
+<pb n="70" facs="tcp:94529:36"/>
+                     <hi>Canterbury,</hi> and the Biſhop of <hi>Bath</hi> and <hi>Wells,</hi> as Dr. <hi>George Hackwell,</hi> who was an Ear-witneſs of the Sa<g ref="char:EOLhyphen"/>tisfaction he gave, tells us in a lit<g ref="char:EOLhyphen"/>tle Tractate he wrote upon that Occaſion, concerning <hi>Confirmati<g ref="char:EOLhyphen"/>on.</hi>
+                  </p>
+                  <p>I conclude this Section with theſe remarkable Words of a fa<g ref="char:EOLhyphen"/>mous Divine of our Church, Dr. <hi>Jackſon,</hi> in his X Book upon the <hi>Creed, Chap.</hi> 50. (which I have mentioned, with a great deal more upon this Subject, in a little Book about <hi>Baptiſm,</hi> near Forty Years ago) <hi>Whether the ſolemn Baptizing of all Infants, which are the Children of preſumed Chriſtian Parents, through<g ref="char:EOLhyphen"/>out this Kingdom, without ſolemn A<g ref="char:EOLhyphen"/>ſtipulation, that they ſhall at years of Diſcretion, perſonally ratify their Vow in Baptiſm in Publick, in ſuch man<g ref="char:EOLhyphen"/>ner as the Church requires, be not ra<g ref="char:EOLhyphen"/>ther more lawful or tolerable, than ex<g ref="char:EOLhyphen"/>pedient, I leave with all ſubmiſſion, to the conſideration of higher Powers.</hi>
+                     <pb n="71" facs="tcp:94529:36"/>
+In like manner may I be bold to put this Queſtion, Whether it be to any purpoſe to admit thoſe to this ſolemn Act of Ratifying and Confirming their Vow in Baptiſm, who are not arrived at ſuch <hi>Years of Diſcretion,</hi> as underſtandingly to conſent thereunto, and to re<g ref="char:EOLhyphen"/>member it all the Days of their Life. For I fear many have been Confirmed, who have no more Me<g ref="char:EOLhyphen"/>mory of what they then did; than they have of what was done to them in Baptiſm.</p>
+               </div>
+               <div n="9" type="section">
+                  <head>SECT. IX.</head>
+                  <p>The next Office wherein you are concerned, is <hi>the Solemnization of Matrimony.</hi> Which though it be not a <hi>Sacrament,</hi> yet is ſuch an Holy State, that as there is the greateſt reaſon it ſhould be ſolemnized with publick Rites and Forms by the Miniſters of Chriſt; ſo they ought to take care to per<g ref="char:EOLhyphen"/>form it in a very ſolemn manner.</p>
+                  <p>
+                     <pb n="70" facs="tcp:94529:37"/>
+It may be demonſtrated, that no Marriage anciently was ever made among Chriſtians, which the Church did not allow: and the Benediction of Marriage by the Prieſt was a ſign of that allowance. Nay among the Jews it is manifeſt from the Story of <hi>Boaz</hi> and <hi>Ruth,</hi> that Marriage was Celebrated be<g ref="char:EOLhyphen"/>fore the Elders. IV <hi>Ruth</hi> 11. And <hi>Epiphanius</hi> was of Opinion, that our Lord was invited to the Mar<g ref="char:EOLhyphen"/>riage of <hi>Cana</hi> in <hi>Galilee;</hi> that, as a Prophet he might bleſs the Marri<g ref="char:EOLhyphen"/>age.</p>
+                  <p>And therefore it ought to be lebrated in the Church, in as publick a manner as may be; and with ſuch Gravity and ſeriouſ<g ref="char:EOLhyphen"/>neſs, as becomes the Place, and the Prieſtly Function, and the State it ſelf, which is Holy and Ho<g ref="char:EOLhyphen"/>nourable. In order to this, the People are to be inſtructed often, with what Advice, Deliberation and Reveence, ſuch a weighty
+<pb n="71" facs="tcp:94529:37"/>
+matter, is to be undertaken. Of which they are excellently admo<g ref="char:EOLhyphen"/>niſhed in our Liturgy at the time of Marriage: and ſhould be ad<g ref="char:EOLhyphen"/>moniſhed before-hand, that they may not lightly or wantonly en<g ref="char:EOLhyphen"/>terpriſe it, but diſcreetly ſoberly, and in the fear of God.</p>
+                  <p>For the better ſecurity of this, keep ſtrictly to LXII <hi>Canon,</hi> which requires you to marry none ex<g ref="char:EOLhyphen"/>cept the Banns of Matrimony have been firſt Publiſhed in time of Divine Service, three ſeveral Sundays, or Holy-days: Or a Li<g ref="char:EOLhyphen"/>cenſe have been obtained to do it without, according to the Canons C. CI. CII. CIII. Which moſt reaſo<g ref="char:EOLhyphen"/>nably conſtitute, that none be Married either with Licenſe, or after Banns Publiſhed, under the Age of <hi>One and Twenty Years com<g ref="char:EOLhyphen"/>pleat,</hi> without the conſent of their Parents, or of their Guardians and Governours, if their Parents be deceaſed.</p>
+                  <p>
+                     <pb n="72" facs="tcp:94529:38"/>
+Remember alſo that Marriage is to be celebrated publickly in the Pariſh Church or Chappel, where one of the Parties dwelleth, and in <hi>no other place, and that between the hours of Eight and Twelve in the Forenoon.</hi> For which reaſon care is taken by the <hi>Second Rubrick</hi> in the Office of <hi>Matrimony,</hi> that if the Perſons that are to be Married dwell in divers Pariſhes, the Banns muſt be asked in both Pa<g ref="char:EOLhyphen"/>riſhes; and the Curate of the One Pariſh ſhall not Solemnize Matri<g ref="char:EOLhyphen"/>mony betwixt them, without a Cer<g ref="char:EOLhyphen"/>tificate of the Banns being thrice asked, from the Curate of the o<g ref="char:EOLhyphen"/>ther Pariſh.</p>
+                  <p>Theſe Laws are the more Sa<g ref="char:EOLhyphen"/>credly to be obſerved, becauſe they are for the preſervation of Human Society. Which made <hi>Plato</hi> ſay in the beginning of his Book <hi>de Legibus,</hi> that the <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>, the Laws for the regulating Marriage, ſhould be the very firſt, which a <hi>Law<g ref="char:EOLhyphen"/>giver</hi>
+                     <pb n="73" facs="tcp:94529:38"/>
+ſhould eſtabliſh: becauſe the Propagation of Mankind is the ſupport of Cities and Kingdoms: of which if due care be not taken, all other Laws are in Vain.</p>
+                  <p>This very conſideration, that Marriage is <hi>Seminarium generis hu<g ref="char:EOLhyphen"/>mani</hi> (as <hi>Tertullian</hi> calls it Lib. 1. <hi>ad Uxorem</hi> cap. 2.) was ſufficient to make our Church ſo very cau<g ref="char:EOLhyphen"/>tious in its Conſtitutions about this important affair: that thoſe many miſchiefs might be prevent<g ref="char:EOLhyphen"/>ed, which have inſued, from the neglect of them in many places. Which have been no leſs than <hi>in<g ref="char:EOLhyphen"/>ceſtuous Mixtures:</hi> together with the ruin of ſeveral Families, great grief of Parents, by the diſobedi<g ref="char:EOLhyphen"/>ence of their Children: which hath quite alienated their Affecti<g ref="char:EOLhyphen"/>ons one from another: not to mention the contempt and re<g ref="char:EOLhyphen"/>proach it hath brought upon thoſe of the Clergy or others, that have had a hand in theſe irregular a<g ref="char:EOLhyphen"/>ctions.</p>
+                  <p>
+                     <pb n="74" facs="tcp:94529:39"/>
+I queſtion not but all imagina<g ref="char:EOLhyphen"/>ble care will be taken in my Dio<g ref="char:EOLhyphen"/>ceſs, that no Licenſe be granted, but according to the Canon: and, none of My Clergy I perſwade my ſelf, can be ſo mean, as to let a little Money prevail with them to diſhonour their Holy Calling, by violating thoſe Wiſe and Pious Conſtitutions of our Church, which they have ſworn, as I take it, to obſerve, in their Oath of <hi>Canoni<g ref="char:EOLhyphen"/>cal Obedience.</hi>
+                  </p>
+               </div>
+               <div n="10" type="section">
+                  <head>SECT. X.</head>
+                  <p>The next Office which follows in our Liturgy, is that of <hi>Viſitation of the Sick;</hi> which ought to be attended very ſeri<g ref="char:EOLhyphen"/>ouſly; as much, if not more than any elſe. For Men are never ſo ſenſible of the everlaſting concerns of their Souls, as they are when they lye on a ſick Bed. If they had no thought of God before, no reflections on their ways; they can ſcarce avoid them, in that
+<pb n="75" facs="tcp:94529:39"/>
+condition. <hi>Pliny</hi> tells us, he learnt this by the Sickneſs of a Friend of his, <hi>Optimos nos eſſe, dum infir<g ref="char:EOLhyphen"/>mi ſumus,</hi> that we are then the beſt Men, when we are ſick, Read a moſt pithy Epiſtle of his, which is wholly upon this Subject. <hi>Lib.</hi> VII. <hi>Epiſt.</hi> XXVI. Where a<g ref="char:EOLhyphen"/>mong other things he tells <hi>Maxi<g ref="char:EOLhyphen"/>mus</hi> (to whom it is directed) <q>then a Man remembers that there are Gods (that you know is the Pagan Language) and that he himſelf is but a Man. Then he envies no Man; admires no Man; deſpiſes no Man; Riches ſignifie nothing to him, nor Ho<g ref="char:EOLhyphen"/>nours; Luſt is extinguiſhed, <hi>&amp;c.</hi> all that he deſires is, that he may recover his Health, purpoſing then to lead an innocent and happy Life. So that whatſoever Philoſophers indeavour to teach in many words and many Vo<g ref="char:EOLhyphen"/>lumes; that I may teach the e and my ſelf in this ſhort Precept:
+<pb n="76" facs="tcp:94529:40"/>
+                        <hi>Ut tales eſſe ſani perſeveremur, qua<g ref="char:EOLhyphen"/>les nos futuros profitemur infirmi,</hi> that we continue ſuch when we are well, as we promiſe to be when we are ſick. </q>So he concludes that Epiſtle.</p>
+                  <p>By which you cannot but ſee what an opportunity the Sickneſs of any of your Pariſhoners aſſords you, to help forward the Salvation of their Souls, by your Prayers, Inſtructions, and Exhortations: when they are moſt diſpoſed to receive them, and to be tenderly affected with them. Do not ſtay therefore till notice be ſent you by thoſe about them, of any ones Sickneſs (for they are too apt to defer it, till there be no hope of life left) but when you hear of it, repair to ſuch Perſons, and apply your ſelves to them in ſuch diſ<g ref="char:EOLhyphen"/>courſes as are proper to their con<g ref="char:EOLhyphen"/>dition.</p>
+                  <p>Examine them, as the Office directs, about their belief in God,
+<pb n="77" facs="tcp:94529:40"/>
+and in Jeſus Chriſt, and all the reſt of the Articles of the Chriſti<g ref="char:EOLhyphen"/>an Faith. If they have led a bad Life, contrary to their belief, re<g ref="char:EOLhyphen"/>preſent to them how highly it concerns them to repent, and re<g ref="char:EOLhyphen"/>ſolve to become new Men. Bid them conſider how much they have neglected God, and his Di<g ref="char:EOLhyphen"/>vine Service (which is a common Sin) and alſo what wrong they have done to any of their Neigh<g ref="char:EOLhyphen"/>bours; that they may make them what Satisfaction they are able. If they have lived in moſt things regularly, but been negligent in ſome Duties; comfort and ſupport them with this perſwaſion, that God hath ſent this Sickneſs to per<g ref="char:EOLhyphen"/>fect what was wanting in them. As for ſuch as have led truly Pi<g ref="char:EOLhyphen"/>ous Lives, void of Offence to<g ref="char:EOLhyphen"/>wards God and towards Man, they are to be ſtrengthened with all the Conſolations that are in Chriſt; and raiſed in their hope
+<pb n="78" facs="tcp:94529:41"/>
+of Remiſſion of Sin and Eternal Life, which will baniſh all fear of Death. By this means not only the ſick Perſon may receive great Benefit; but all the By-ſtanders alſo, who hear your Diſcourſe: Which may raiſe ſuch a ſenſe of things in you, as will much im<g ref="char:EOLhyphen"/>prove your ſelves.</p>
+                  <p>And here I ſhall admoniſh you only of one thing more, leaving you to the directions in the Of<g ref="char:EOLhyphen"/>fice, for the reſt: That <hi>Abſolution</hi> of Penitents, is a thing of great moment; which may alone be ſufficient to convince you both of the <hi>Dignity,</hi> and the <hi>Difficulty</hi> of your Holy Function. For what an high Honour is it to be made a Judge of the ſtate of Mens Im<g ref="char:EOLhyphen"/>mortal Souls, and to pronounce a Sentence upon them, according as you find them, upon Examinati<g ref="char:EOLhyphen"/>on? But how induſtriouſly then ought you to labour to un<g ref="char:EOLhyphen"/>derſtand the Goſpel of Chriſt,
+<pb n="79" facs="tcp:94529:41"/>
+whereby you are to Judge; that you may not paſs a wrong Sen<g ref="char:EOLhyphen"/>tance, through ignorance of the Conditions of Salvation by Chriſt? Whoſe promiſes are made plainly to an Holy Life, which if it hath not been minded, till a Man come to die; let him not deſpair of God's Mercy, but take heed how you abſolve him in his Name: For we can make no certain judg<g ref="char:EOLhyphen"/>ment of Men, by what they re<g ref="char:EOLhyphen"/>ſolve in their Sickneſs, when they have no Temptation to run on in their former Wicked courſe of Life: but muſt ſtay to ſee how they will keep their Reſolutions, which they too often break, when they are well. If they do not live to give a proof of their Sincerity, God notwithſtanding, who knows the Secrets of all Hearts, if he ſee them to be ſincere, and that they would be ſtedfaſt, ſhould they have recover'd their Health, will undoubtedly abſolve them, though
+<pb n="80" facs="tcp:94529:42"/>
+they depart the World without our Abſolution. In ſhort, this may well (as the <hi>Pythagoraeans</hi> were wont to admoniſh their Schollars) make, you <hi>reverence your ſelves,</hi> ſo as to live up to this Dignity and high Authority, he hath commit<g ref="char:EOLhyphen"/>ted to you: and this very Power, if you uſe it well, will procure you <hi>reverence from others,</hi> who un<g ref="char:EOLhyphen"/>derſtand any thing of Religion.</p>
+                  <p>At the end of this Office, is an<g ref="char:EOLhyphen"/>nexed the Order of Adminiſtring <hi>the Communion to the Sick:</hi> which Mr. <hi>Calvin</hi> himſelf thinks (though it was not the uſage of <hi>Geneva)</hi> ſhould not be deny'd to them, if they deſired it, and underſtood what they did, and were diſpoſed with ſolemn Reſolutions to renew their Covenant with Chriſt. But timely notice ought to be given of this deſire, with a ſignification how many there are to communicate with the Sick Perſon, which muſt be three or two at the leaſt; un<g ref="char:EOLhyphen"/>leſs
+<pb n="81" facs="tcp:94529:42"/>
+it be in the time of a Plague; or other Contagious Diſeaſe, when the Miniſter may Communicate with him alone.</p>
+               </div>
+               <div n="11" type="section">
+                  <head>SECT. XI.</head>
+                  <p>Concerning the next thing in our Liturgy, which is <hi>The Order for the Burial of the DEAD,</hi> there needs not much to be ſaid. But that commonly Men and Women are apt to be very ſerious, when they ſee their Friends and Neighbours laid in their Graves: and therefore what you are then ordered to ſay either, when you meet the <hi>Corps,</hi> or in the <hi>Church,</hi> or at the <hi>Grave,</hi> ſhould be pronounced with great Gra<g ref="char:EOLhyphen"/>vity, Earneſtneſs, and Affection; that the Hearts of thoſe who are preſent may be moved with it. If you are deſired to come to the Houſe of the Deceaſed, and thence to accompany the Corps to the Grave, you may have an op<g ref="char:EOLhyphen"/>portunity to put thoſe in mind
+<pb n="82" facs="tcp:94529:43"/>
+who ſit near to you, of prepa<g ref="char:EOLhyphen"/>ration for Death; which ſhould never be out of our thoughts, but then eſpecially be ſenſibly reflect<g ref="char:EOLhyphen"/>ed on, when we have a Spectacle of Mortality before our Eyes. Who was as ſtrong and healthy perhaps as any there preſent; and yet on a ſudden ſnatch'd away. Such things piouſly repreſented, are apt, (for the preſent at leaſt) to touch Mens Hearts, and make deep impreſſions there.</p>
+               </div>
+               <div n="12" type="section">
+                  <head>SECT. XII.</head>
+                  <p>Of the <hi>Churching of Women,</hi> after Child-birth, I ſhall ſay only this: that the Firſt <hi>Ra<g ref="char:EOLhyphen"/>brick</hi> directs that the Woman, at the uſual time after Delivery, ſhall come into the Church decently Apparelled, and <hi>there kneel down in ſome convenient place, as hath been accuſtomed.</hi> Now the ac<g ref="char:EOLhyphen"/>cuſtomed place (it appears by our Old Common-Prayer Book before the Reſtauration) was <hi>nigh to the
+<pb n="83" facs="tcp:94529:43"/>
+Communion Table.</hi> To put her in mind I ſuppoſe, that ſhe ſhould take the next opportunity, to re<g ref="char:EOLhyphen"/>ceive the Holy Communion: if there be none that day, when the laſt <hi>Rubrick</hi> declares, it is conve<g ref="char:EOLhyphen"/>nient ſhe ſhould partake of it. Unto this therefore you are to Ex<g ref="char:EOLhyphen"/>hort her, that ſhe may perfect her acknowledgments of Gods goodneſs; by the higheſt <hi>Thankſ<g ref="char:EOLhyphen"/>giving</hi> the Church can offer; and which is proper and peculiar to Chriſtian People.</p>
+               </div>
+               <div n="13" type="section">
+                  <head>SECT. XIII.</head>
+                  <p>The laſt Office wherein you are concerned, is the Reading <hi>the Commination,</hi> which is to be done but once a Year, on the firſt day of <hi>Lent:</hi> though the Prayers then appoint<g ref="char:EOLhyphen"/>ed are to be uſed at other times, as the Ordinary ſhall appoint. This if done ſolemnly, though it ſeem a thing of no great labour; yet might have a great effect. For
+<pb n="84" facs="tcp:94529:44"/>
+every one knows (or ought to know) that the <hi>Lent Fast</hi> was In<g ref="char:EOLhyphen"/>ſtituted, to be a time of <hi>Repen<g ref="char:EOLhyphen"/>tance:</hi> and to bring Men to it, what can be more effectual than this <hi>Denunciation of Gods Anger and Judgments againſt Sinners;</hi> with moſt comfortable aſſurances of Grace and Mercy to the Peni<g ref="char:EOLhyphen"/>tent?</p>
+                  <p>I know it is hard, as the World goes, to get a Congregation to<g ref="char:EOLhyphen"/>gether, upon that day; when this is required to be read in the Church. You may therefore read it on the <hi>Firſt Sunday in Lent;</hi> and then put the Senſe of it into your Sermon: where it may be proper to preſs them to weigh e<g ref="char:EOLhyphen"/>very part of it diſtinctly. And in order to it, remove that fooliſh Objection, which I have heard ſome have in their Mouths, that they cannot endure to Curſe their Neighbours: by ſhowing them plainly, that they are not the
+<pb n="85" facs="tcp:94529:44"/>
+Curſes of the People, but of God himſelf, which he hath denounced againſt Sinners. To which when the People are ordered to ſay AMEN, they only conſent to the truth of that which God ſaith. The very <hi>Office</hi> teaches this, when it declares the end of reading thoſe Curſes gathered out of the XXVII of <hi>Deuteronomy</hi> and other places of Scripture, and the Peo<g ref="char:EOLhyphen"/>ples ſaying <hi>Amen</hi> to them; <hi>that they may flee from ſuch vices, for which they affirm with their own mouth the Curſe of God to be due.</hi> And repreſent to them alſo, that whether they will affirm theſe Curſes to be due, or no; they will fall upon them, if they be ſuch Sinners as are there named: and the ſooner, becauſe they refuſe to ſay <hi>Amen</hi> to the Words of God: that is affirm what he affirms, who is <hi>the Faithful and the True.</hi>
+                  </p>
+                  <p>
+                     <pb n="86" facs="tcp:94529:45"/>
+This Cavil being taken away, it will be eaſie to make them ſen<g ref="char:EOLhyphen"/>ſible, how uſeful it is for them to joyn with you in this <hi>Commina<g ref="char:EOLhyphen"/>tion:</hi> which may awaken drouſy Souls, to conſider and amend their evil doings; that they may eſcape thoſe Judgments that are threat<g ref="char:EOLhyphen"/>ned to them, which are unavoi<g ref="char:EOLhyphen"/>dable, if they go on ſtill in their Sins.</p>
+                  <p>There was ſomething like this among the ancient <hi>Jews,</hi> who at certain ſtated times, were wont to denounce a general <hi>Anathema,</hi> a<g ref="char:EOLhyphen"/>gainſt all the <hi>Iſraelites,</hi> who know<g ref="char:EOLhyphen"/>ingly and willingly, violated ſuch and ſuch Laws. A Form of which Mr. <hi>Selden</hi> hath given us out of their Ritual, called <hi>Colho,</hi> Lib. IV. <hi>De Jure Nat. &amp; Gent.</hi> cap. 7. This it is likely the Chriſtian Church thought fit to imitate; not by de<g ref="char:EOLhyphen"/>nouncing a formal <hi>Anathema,</hi> but only by a ſolemn recital of the Threatnings in God's Laws, againſt
+<pb n="87" facs="tcp:94529:45"/>
+impenitent Sinners: And their af<g ref="char:EOLhyphen"/>firming the truth, and certainty of them. Which in the <hi>Romiſh</hi> Church came at laſt to ſuch an <hi>Anathema</hi> as I now mentioned in the Jewiſh Ri<g ref="char:EOLhyphen"/>tual: call'd, <hi>The greater Excommu<g ref="char:EOLhyphen"/>nication:</hi> which here in <hi>England</hi> was denounced by every Biſhop twice a year; and by every Pariſh-Prieſt four times a year, againſt certain Perſons. A Form of which <hi>great Curſe,</hi> the ſame moſt Learned Perſon hath given us, out of the Ritual, according to the uſe of the Church of <hi>Sarum,</hi> in his firſt Book <hi>De Synedriis,</hi> Cap. X. where he ob<g ref="char:EOLhyphen"/>ſerves that in the room of this our firſt Reformers only ordered this <hi>Maledictory Commination</hi> (as he well ſtiles it) to be uſed once a Year.</p>
+                  <p>In the beginning of which <hi>Com<g ref="char:EOLhyphen"/>mination</hi> there is mention made <hi>of a godly Diſcipline in the Primitive Church,</hi> whereby ſuch Perſons as ſtood Convicted of notorious ſins,
+<pb n="88" facs="tcp:94529:46"/>
+were in the beginning of <hi>Lent</hi> put to open Pennance. This Diſcipline we there wiſh might be reſtored a<g ref="char:EOLhyphen"/>gain; but ſeem to ſuppoſe, that for the preſent, we can only, in<g ref="char:EOLhyphen"/>ſtead of it, <hi>denounce God's anger and judgments against ſinners,</hi> and make them ſay <hi>Amen</hi> thereunto; where<g ref="char:EOLhyphen"/>by they may ſtand <hi>Convicted</hi> in their own Conſciences, that they are under the Curſe of God, and ſo be brought to Repentance. Had we not need then do this very ſeri<g ref="char:EOLhyphen"/>ouſly, if it be all that we can do of this kind? Yet let it be conſi<g ref="char:EOLhyphen"/>dered, whether we may not be a<g ref="char:EOLhyphen"/>ble to do ſomething more; if we will attempt it. For may not ſcan<g ref="char:EOLhyphen"/>dalous Perſons be more frequently preſented, than they are? May not private Admonitions, if not pub<g ref="char:EOLhyphen"/>lick, be more uſed? Let us not then think fit to do nothing, becauſe we cannot do all that we would. The right way to enlarge our Authori<g ref="char:EOLhyphen"/>ty, (of the want of which we com<g ref="char:EOLhyphen"/>plain)
+<pb n="89" facs="tcp:94529:46"/>
+is to uſe that which we have uprightly and faithfully. That is, if we preſented none in the Eccle<g ref="char:EOLhyphen"/>ſiaſtical Court, till private Applica<g ref="char:EOLhyphen"/>tions had been made to them, with ſeriouſneſs and earneſtneſs, unſuc<g ref="char:EOLhyphen"/>ceſsfully; and if it were done with<g ref="char:EOLhyphen"/>out reſpect to Perſons, Parties, or Intereſts, we might bring our Courts into that juſt eſteem and credit, which they ought to have.</p>
+                  <p>And having mentioned private Admonition, let me, in a few words, remember you, that at your Ordination, you promiſed to <hi>uſe both publick and private moniti<g ref="char:EOLhyphen"/>ons and exhortations, as well to the ſick, as to the whole within your Cures, as need ſhall require, and occaſion ſhall be given.</hi> And perhaps more good might be done this way than any other; if it were done at fit<g ref="char:EOLhyphen"/>ting times, with as much ſecrecy as may be, and with apparent af<g ref="char:EOLhyphen"/>fection to them. In ſome Caſes
+<pb n="90" facs="tcp:94529:47"/>
+perhaps it may be done moſt effe<g ref="char:EOLhyphen"/>ctually, by Letter: which may be ſent, when you cannot have oppor<g ref="char:EOLhyphen"/>tunity to ſpeak to them. And here it may be proper to admoniſh you, that Diſſenters from our Church are thus to be dealt withal; by ſome way of private Conference with them, not by Preaching againſt them, for they are not there to hear it. Our own People in<g ref="char:EOLhyphen"/>deed are by publick Diſcourſes, as well as otherways, to be confirm<g ref="char:EOLhyphen"/>ed and eſtabliſhed in our Commu<g ref="char:EOLhyphen"/>nion: But there is no way to re<g ref="char:EOLhyphen"/>duce them, but by private arguing with them. Which is not to be o<g ref="char:EOLhyphen"/>mitted; becauſe the preſent act of Indulgence, doth not juſtify them in their ſeparation, but only ſuſpends the Puniſhments to which they were before liable. Still they are in a ſtate of Schiſm, out of which you ſhould endeavour to recover them, by kind Perſwaſions and Ar<g ref="char:EOLhyphen"/>guments, which may work more
+<pb n="91" facs="tcp:94529:47"/>
+upon them than all the Penalties formerly <hi>inflicted,</hi> which made them Angry, but did not Convert them.</p>
+                  <p>For the Concluſion of this part of my Treatiſe, I ſhould upon the mention of LENT have ſaid ſomething concerning that <hi>Faſt,</hi> and other days of <hi>Faſting or Abſtinence,</hi> appointed by the Church, which if Men could be perſwaded to ob<g ref="char:EOLhyphen"/>ſerve, as times of Recollection, and Examination of themſelves, and Prayer, they would find great be<g ref="char:EOLhyphen"/>nefit thereby, to the encreaſe of Chriſtian Piety. I wrote a little Book about it in the beginning of the late Reign; which had the Ap<g ref="char:EOLhyphen"/>probation of my Superiours: But I have not room to ſay more of it here. Nor of the <hi>Feſtivals</hi> which are ordered to be kept, in Com<g ref="char:EOLhyphen"/>memoration of great Bleſſings God hath beſtowed upon us. Of which you ſhould endeavour to make your People ſenſible; whereby they may be induced to obſerve them with
+<pb n="92" facs="tcp:94529:48"/>
+Religious Joy. Eſpecially the three chief Feſtivals, in memory of our Saviour's <hi>Nativity, Reſurrection,</hi> and the <hi>Coming of the Holy Ghoſt.</hi>
+                  </p>
+                  <p>But it is time to proceed to the other part of this Diſcourſe, which I propounded in the beginning: And I muſt be the ſhorter in it, becauſe I have been longer in this, than I at firſt intend<g ref="char:EOLhyphen"/>ed.</p>
+               </div>
+            </div>
+            <div n="2" type="part">
+               <pb n="93" facs="tcp:94529:48"/>
+               <head>PART II.</head>
+               <p>HAving laid before you the Duties both private and publick, which belong to your Holy Function; I come now to treat a little of <hi>the Spirit wherewith they ought to be Perform<g ref="char:EOLhyphen"/>ed.</hi>
+               </p>
+               <div n="1" type="section">
+                  <head>SECT. I.</head>
+                  <p>And above all things you muſt labour to poſſeſs your Hearts with a Spirit <hi>of Love to God,</hi> whoſe Servants you are, and who employs you in the moſt Glorious Work, in the World. A Spirit, I ſay, of Love to God the <hi>Father,</hi> who hath ſent his Son to be the Sa<g ref="char:EOLhyphen"/>viour of the World, and to God the <hi>Son,</hi> who loved the Church and gave himſelf for it; and to God the <hi>Holy Ghost,</hi> who hath, by
+<pb n="94" facs="tcp:94529:49"/>
+a peculiar Grace, ſeparated you from other Men, to Miniſter un<g ref="char:EOLhyphen"/>to Chriſt in his Church. Which was a Witneſs of what was ſaid to you at your Ordination; <hi>Receive the Holy Ghost, for the Office and Work of a Prieſt in the Church of God.</hi> Theſe were not empty words, nor mere lofty Expreſſions, without any Power in them: But an effectual Prayer for the Holy Spirit of Grace, which was then conferred upon you. And ſhould mightily move you to ſerve the Church of Chriſt, in the <hi>love of the Spirit,</hi> as St. <hi>Paul</hi> ſpeaks, XV <hi>Rom.</hi> 30. That is, in the Love, which the Spirit of God inſpires you withal. For, as he ſaith before in that Epi<g ref="char:EOLhyphen"/>ſtle V. 5. <hi>The love of God is ſhed a<g ref="char:EOLhyphen"/>broad in our Hearts, by the Holy Ghoſt which is given unto us.</hi> So we pray in the <hi>Hymn,</hi> which is re<g ref="char:EOLhyphen"/>cited at the Ordination of Prieſts</p>
+                  <lg>
+                     <pb n="95" facs="tcp:94529:49"/>
+                     <l>Come Holy Ghoſt, our Souls inſpire,</l>
+                     <l>And lighten us with Coeleſtial fire,</l>
+                     <l>Thy bleſſed Unction from above,</l>
+                     <l>Is comfort, life, and fire of Love.</l>
+                  </lg>
+                  <p>Theſe are not vain words, if ſent up with ardent Affection to God, but procure for us the power of the Holy Spirit, to enlighten, and enliven, and warm our Hearts with the Knowledge and Love of God our Saviour. Which Love we ſhould every day endeavour to ſtir up; by reflecting upon the won<g ref="char:EOLhyphen"/>derful Love of God the Father, Son, and Holy Ghoſt unto us. For ſo St. <hi>Chryſostom</hi> notes upon thoſe words of St. <hi>Paul,</hi> XV <hi>Rom. 30. He mentions the Love of the Spirit,</hi> 
+                     <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>; <hi>For as Chriſt and the Father hath loved the World, ſo hath the Spirit.</hi> Upon this Love we ought to reflect every Morning, and ponder it ſo long,
+<pb n="96" facs="tcp:94529:50"/>
+till we find it excite in us that <hi>Hea<g ref="char:EOLhyphen"/>venly fire</hi> of Love to God; which we prayed for at our Ordina<g ref="char:EOLhyphen"/>tion.</p>
+                  <p>For if we preſerve this Flame in our Hearts; it will make us cheer<g ref="char:EOLhyphen"/>ful as well as diligent, reſtleſs and unwearied in the work of the Lord. Nothing can carry <gap reason="illegible" resp="#UOM" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> thorough it, like this; and ren<g ref="char:EOLhyphen"/>der it ſo eaſy and ſweet to us: as to think we are ſerving our good God, in that which he loves and delights to have done; and to feel that every thing we do proceed from love to him, and to his ſervice.</p>
+                  <p>Our Saviour teaches us, that this is the Principle by which <gap reason="illegible" resp="#UOM" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> his Miniſters ought to Act, in that Queſtion which he asks St. <hi>Peter,</hi> and repeats it thrice after his Reſurrecti<g ref="char:EOLhyphen"/>on, <hi>Simon Peter loveſt thou me?</hi> (XX<gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> 
+                     <hi>Joh.</hi> 15, 16, 17.) And in the com<g ref="char:EOLhyphen"/>mand which follows upon his pro<g ref="char:EOLhyphen"/>feſſion that he ſincerely loved Him. <hi>Feed my Lambs, and feed my Sheep</hi>
+                     <pb n="97" facs="tcp:94529:50"/>
+take care of the Souls of Young and Old, that they want not their proper Food. For they are ſo dear to him (as <hi>Theophylact</hi> there Notes) that he makes our care of <hi>them,</hi> to be the mark of our Affe<g ref="char:EOLhyphen"/>ction to him; <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>. For it is there<g ref="char:EOLhyphen"/>fore a certain token of our Love to him; becauſe it flows from thence as from its Fountain and Spring. If we love <hi>him,</hi> we can never neg<g ref="char:EOLhyphen"/>lect <hi>them.</hi> This will make us ſtu<g ref="char:EOLhyphen"/>dious and induſtrious to promote the Salvation of thoſe Souls, whom Chriſt ſo dearly loved: It being the trueſt Expreſſion of our Love to Chriſt. So St. <hi>Chryſoſtom</hi> upon this place: Chriſt repeated this ſo often, to ſhow us, <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>, <hi>After what man<g ref="char:EOLhyphen"/>ner we ought chiefly to love him, by taking care of his flock.</hi> Can any Man read this then and be negli<g ref="char:EOLhyphen"/>gent? No; not if he <hi>Love the Lord Jeſus in Sincerity:</hi> who hath
+<pb n="98" facs="tcp:94529:51"/>
+bid him demonſtrate his Love, by feeding his Lambs and his Sheep There are ſeveral other things, ſaith that great Father of the Church, which may give us ſome Confi<g ref="char:EOLhyphen"/>dence towards God, nay make us Illuſtrious and Famous: <hi>But that which above all things wins us the fa<g ref="char:EOLhyphen"/>vour of Heaven, is,</hi> 
+                     <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>, <hi>our tender care of our Neigh<g ref="char:EOLhyphen"/>bours.</hi> Which leads to the next thing;</p>
+               </div>
+               <div n="2" type="section">
+                  <head>SECT. II.</head>
+                  <p>Which is <hi>a ſincere Love and Affection to the Souls of Men,</hi> which Chriſt hath redeemed with his precious Blood. If we make an eſtimate of them by the price which was paid for them, we cannot ſet too high a value upon them: And if we look upon them as invaluable Beings (purchaſed at ſo dear a rate) we ſhall do all we can to ſave them; and be exceed<g ref="char:EOLhyphen"/>ing fearful, leaſt any of them
+<pb n="99" facs="tcp:94529:51"/>
+ſhould be loſt through our Negli<g ref="char:EOLhyphen"/>gence.</p>
+                  <p>Preſerve therefore, and keep a<g ref="char:EOLhyphen"/>live in your Hearts, a <hi>Spirit of love to the Souls of Men;</hi> eſpecially to your Pariſhioners. And there is no way to do this like to the Con<g ref="char:EOLhyphen"/>ſideration, what it coſt to Redeem them; no leſs than the Blood of the Son of God: who demonſtra<g ref="char:EOLhyphen"/>ted thereby how precious they are in themſelves, and how dear to him. Beſtow a few thoughts up<g ref="char:EOLhyphen"/>on this every day, and it will be<g ref="char:EOLhyphen"/>get and continue in you the great<g ref="char:EOLhyphen"/>eſt Kindneſs, and tendereſt Com<g ref="char:EOLhyphen"/>paſſion towards them: And that will move you to lay out your ſelves with the utmoſt Diligence, in all the Offices belonging to your Function. And this, both for his ſake, and for theirs; that, he may <hi>ſee of the travel of his Soul, and be ſa<g ref="char:EOLhyphen"/>tisfied</hi> (as the Prophet ſpeaks LIII <hi>Iſa.</hi> 11.) and that they <hi>may obtain the Salvation which is in Christ Je<g ref="char:EOLhyphen"/>ſus,
+<pb n="100" facs="tcp:94529:52"/>
+with Eternal Glory, 2 Tim.</hi> 2. 10.</p>
+                  <p>I ſhall conclude what I have ſaid of theſe two things <hi>(a Spirit of love to God, and to the Souls of Men)</hi> with a notable Diſcourſe of St. <hi>Au<g ref="char:EOLhyphen"/>ſtin's.</hi> Who in a Letter to <hi>Longi<g ref="char:EOLhyphen"/>nianus,</hi> a Pagan Philoſopher, re<g ref="char:EOLhyphen"/>members him of this ſaying of one of the Ancients, <hi>quibus ſatis perſua<g ref="char:EOLhyphen"/>ſum eſſet, ut nihil mallent mallet ſe eſſe, quàm viros bonos, his reliquam facilem eſſe doctrinam;</hi> unto thoſe who were perſwaded ſo far, as to deſire no thing but to be made good Men, all the reſt of the Inſtructions, that Philoſophers could give them, would be very eaſy. This he ſaith he took to be a ſaying of <hi>Socrates,</hi> which muſt be acknowledged to be excellent. But then he tells him, there is a far more ancient prophe<g ref="char:EOLhyphen"/>tical ſaying, which preceded this many Ages; teaching Men brief<g ref="char:EOLhyphen"/>ly and at once, not only to de<g ref="char:EOLhyphen"/>ſire nothing but to be made good
+<pb n="101" facs="tcp:94529:52"/>
+men; but alſo how they may be made truly good, viz. <hi>Love the LORD thy God, with all thy heart, and with all thy Soul, and with all thy mind; and thy Neighbour as thy ſelf.</hi> To him who can be perſwaded to do this, <hi>Non ei reliquam facilem, ſed eam totam eſſe doctrinam duntaxat utilem &amp; ſalubrem.</hi> I do not ſay as <hi>Socrates</hi> did, that all the reſt will be eaſy; but that this is the whole only profitable and whole<g ref="char:EOLhyphen"/>ſome Doctrine; and there needs no more. <hi>Epiſt.</hi> XX.</p>
+                  <p>Keep this therefore perpetually in your Heart, which contains in it all things elſe. Love the Lord your God, and love your Neigh<g ref="char:EOLhyphen"/>bour; and you have done all you need to do: for all is included in this: You will not be want<g ref="char:EOLhyphen"/>ing in your Duty to either of them, if you heartily Love them.</p>
+               </div>
+               <div n="3" type="section">
+                  <pb n="102" facs="tcp:94529:53"/>
+                  <head>SECT. III.</head>
+                  <p>My next Advice ſhall be in the words of the bleſſed Apoſtle St. <hi>Paul,</hi> (who hath left us a wonderful Example, of moſt tender affection to mens Souls, read 1 <hi>Theſ. 2, 7, 8, 11.) Whatſoever ye do, in word or deed, do all in the Name of the Lord Jeſus, giving thanks un<g ref="char:EOLhyphen"/>to God and the Father by him.</hi> III <hi>Coloſſ.</hi> 17. That is, when you are going to perform any part of your Office, pray him to be preſent with you, and aſſiſt you. So St. <hi>Chryſo<g ref="char:EOLhyphen"/>ſtom</hi> (and out of him <hi>Theophylact)</hi> Expounds theſe words, <hi>in the Name of Chriſt,</hi> 
+                     <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>, calling upon him to be thy Helper, <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>; <hi>First making thy prayer to him, and ſo go about thy buſineſs.</hi> When you put on your Surplice, for inſtance, think with your ſelves that you are going to offer up the Prayers of the People to God, in
+<pb n="103" facs="tcp:94529:53"/>
+                     <hi>the Name of Jeſus Christ:</hi> And then with what Solemnity, with what Reverence will you perform that Sacred Office? Eſpecially when you have beſought him to be with you, and believe that he is nigh to all them that call upon him in Truth. In like manner when you go up into the Pulpit; conſider with your ſelves, that you are go<g ref="char:EOLhyphen"/>ing to ſpeak in <hi>the Name of Chriſt,</hi> unto his People; beſeeching him to aſſiſt you, and to carry home the Truths you ſhall deliver to their Hearts and Conſciences. For <hi>dex<g ref="char:EOLhyphen"/>teriùs loquentur cùm hominibus, qui prius tota mente cum Deo fuerunt col<g ref="char:EOLhyphen"/>locuti,</hi> as <hi>Eraſmus</hi> excellently ſpeaks, they will ſpeak with Men more dextrouſly, who have firſt of all, with their whole Soul, ſpoken with God. The like I might ſay, of other parts of your Duty, which will then be moſt ſucceſsfully diſ<g ref="char:EOLhyphen"/>charged; when you have engaged our Lord by ſolemn Prayer to him,
+<pb n="104" facs="tcp:94529:54"/>
+to go along with you, and accom<g ref="char:EOLhyphen"/>pany you.</p>
+                  <p>
+                     <hi>Theodoret</hi> hath another interpre<g ref="char:EOLhyphen"/>tation, or rather a further im<g ref="char:EOLhyphen"/>provement of the ſenſe of theſe words: which is this, <hi>adorn all your words and actions,</hi> 
+                     <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>, <hi>with the remembrance of the Lord Chriſt.</hi> That is, have<g ref="char:EOLhyphen"/>ing invoked his bleſſed preſence to be with you, think what he would do, how he would behave him<g ref="char:EOLhyphen"/>ſelf, and with what Spirit he would perform ſuch things, as you are going about. For example, when you are going to compoſe a Sermon, it would be of great uſe and efficacy, if you would think with your ſelves, what Chriſt would ſay to your People, if he were to ſpeak to them; what he would require of them; with what Motives he would excite them; and what Compaſſion he
+<pb n="105" facs="tcp:94529:54"/>
+would expreſs to their Souls. It would be inpoſſible then, for any Man, if he had Chriſt in his mind, to ſay any thing, but what he hath well conſidered, and will tend to make Men good. He will not Preach for his own glo<g ref="char:EOLhyphen"/>ry, but for the glory of Chriſt: purſuing things profitable, rather than plauſible; not affecting in his diſcourſe <hi>lenocinia ſed remedia,</hi> ſuch things as may tickle the ears of idle People, but ſuch as will cure their Diſeaſes and Diſtem<g ref="char:EOLhyphen"/>pers. They are the Words of <hi>Salvian</hi> in his Preface to his Book <hi>de Gubernatione Dei.</hi> Which are agreeable to the old Rule, which <hi>Ritterſhuſius</hi> there mentions <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>. <hi>Give me not Spruce things, but ſuch as the City needs.</hi>
+                  </p>
+                  <p>They that interpret the words to this ſenſe, <hi>be ſo mindful of Chriſt, that you do nothing indecorous, no<g ref="char:EOLhyphen"/>thing
+<pb n="106" facs="tcp:94529:55"/>
+unbeſeeming the relation you have to him, nothing that may diſho<g ref="char:EOLhyphen"/>nour him;</hi> differ not much from the former. And therefore I con<g ref="char:EOLhyphen"/>clude this Advice as the Apoſtle doth his Admonition: As we ought to begin every thing with a devout remembrance of Chriſt, whoſe bleſſing upon us, we ought to implore; ſo we ought to end all <hi>by giving thanks to God through him.</hi> That's as acceptable to him as our Prayers; nay, is a power<g ref="char:EOLhyphen"/>ful Prayer for more of his Grace. For none are ſo likely to receive more as thoſe who thankfully ac<g ref="char:EOLhyphen"/>knowledge what they have received already. And therefore let all your doings, be thus begun and ended, in <hi>the Name of Chriſt.</hi> Whereby you will be preſerved in his Love and Favour; and partake ſtill more of his grace.</p>
+               </div>
+               <div n="4" type="section">
+                  <pb n="107" facs="tcp:94529:55"/>
+                  <head>SECT. IV.</head>
+                  <p>Eſpecially if you do all this in <hi>Sincerity</hi> of heart. Which is that good Soil, where<g ref="char:EOLhyphen"/>in, if the Seed of the Word be not ſown and received, it brings forth no Fruit to Perfection: and which our Saviour more particularly re<g ref="char:EOLhyphen"/>quired in his Apoſtles, who were to ſow that good Seed in Mens hearts. Such Perſons, it is manifeſt, he ſought for, as were plain, ſimple, and honeſt hearted: having no worldly end to ſerve, but wholly bent to know the way to Eternal Salvation. <hi>Andrew</hi> and <hi>Peter</hi> who were firſt called to follow him, it is evident, were of this Spirit; for they left all they had to at<g ref="char:EOLhyphen"/>tend him: and next to them <hi>Phi<g ref="char:EOLhyphen"/>lip,</hi> who finding <hi>Nathaniel,</hi> and telling him they had found the MESSIAH <hi>Jeſus of Nazareth,</hi> to whom he pray'd him to go along with him; as ſoon as our
+<pb n="108" facs="tcp:94529:56"/>
+Saviour ſaw him, he ſaid (to ſhew what kind of Men he delighted in) <hi>Behold an Iſraelite indeed, in whom is no guile,</hi> I <hi>John</hi> 47. which was a ſurpriſing Character of him, after <hi>Nathaniel</hi> had made this ob<g ref="char:EOLhyphen"/>jection againſt our Saviour, <hi>can any good thing come out of Naza<g ref="char:EOLhyphen"/>reth?</hi> But, as <hi>Theophylact</hi> well ob<g ref="char:EOLhyphen"/>ſerves, thoſe were not <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap> 
+                     <hi>words of unbelief:</hi> but <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap> 
+                     <hi>of a mind that accurately weighed things, and was well ſtudied in the Law:</hi> which taught him that Chriſt was to come out <hi>of Bethleem</hi> in <hi>Ju<g ref="char:EOLhyphen"/>daea,</hi> not out of <hi>Nazareth</hi> in <hi>Ga<g ref="char:EOLhyphen"/>lilee.</hi> By this our Saviour judged of his <hi>Sincerity,</hi> which appeared alſo, in that, notwithſtanding this ſeeming prejudice, he went along with <hi>Philip</hi> to be better informed of our Saviour.</p>
+                  <p>This is one great part of that <hi>Sincerity,</hi> which I am now recom<g ref="char:EOLhyphen"/>mending
+<pb n="109" facs="tcp:94529:56"/>
+to you: to have your minds free from the power of Prejudice and partial Affections; being deſirous only to know the truth, and underſtand what the will of the Lord is. So St. <hi>Chry<g ref="char:EOLhyphen"/>ſoſtom</hi> upon theſe words <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>. <hi>His judgment was uncorrupt and unbyaſ<g ref="char:EOLhyphen"/>ſed, and pronounced nothing either out of Favour and Affection, or out of diſlike and hatred.</hi>
+                  </p>
+                  <p>Another token of which <hi>Since<g ref="char:EOLhyphen"/>rity</hi> there follows: in that after this high commendation which our Lord gave him, he was not at all elated by it, nor ran away with theſe Encomiums, (as the ſame Father ſpeaks) <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>, &amp;c. but continues enquiring, and ſearch<g ref="char:EOLhyphen"/>ing more exactly: being deſirous of this alone to be more per<g ref="char:EOLhyphen"/>fectly ſatisfied in the Truth. As
+<pb n="110" facs="tcp:94529:57"/>
+he was upon his next Queſtion, and our Saviour's Anſwer to it.</p>
+                  <p>By this is appears that <hi>ſincerity of heart</hi> is the beſt Diſpoſition to underſtand the mind of Chriſt, and to be employ'd by him in the Miniſtry of the Goſpel, as the Apoſtles were. Who had regard to Nothing in this World; but only to the Glory of God, and the Salvation of Men: in which alſo they found the higheſt Satisfaction, or rather Rejoycing and Glorying. For ſo St. <hi>Paul</hi> ſaith, 2 <hi>Corinth.</hi> I. 12. <hi>Our rejoycing</hi> (or <hi>glorying,</hi> or <hi>boaſting) is this, the Teſtimony of our Conſcience, that in ſimplicity, and Godly ſincerity,</hi> &amp;c. <hi>We have our Converſation in the World.</hi> He ſer<g ref="char:EOLhyphen"/>ved our Lord, that is, with pure intention: deſigning nothing but to win Souls to him, by deliver<g ref="char:EOLhyphen"/>ing his mind ſincerely to them: and ſeeking no greater Satisfacti<g ref="char:EOLhyphen"/>on,
+<pb n="111" facs="tcp:94529:57"/>
+than to have it believed and obeyed. <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>, <hi>&amp;c.</hi> as St. <hi>Chryſoſtom</hi> gloſſes on thoſe words, <hi>There was nothing de<g ref="char:EOLhyphen"/>ceitful in him; No Hypocriſy, no Si<g ref="char:EOLhyphen"/>mulation, no Flattery, no Craft or Fraud, or any thing of that kind: but he acted with all freedom, in Simplicity, in Truth, in <gap reason="illegible" resp="#UOM" extent="1 word">
+                           <desc>〈◊〉</desc>
+                        </gap> pure, un<g ref="char:EOLhyphen"/>corrupt Judgment, and clear inten<g ref="char:EOLhyphen"/>tion: having nothing concealed and hidden undernaeth, nothing rotten at the bottom.</hi> Thus he explains him<g ref="char:EOLhyphen"/>ſelf in the Second Chapter of the Firſt Epiſtle to the <hi>Theſſalonians</hi> v. 3, 4, 5. <hi>For our Exhortation was not of deceit, nor of uncleanneſs, nor of guile: But as we were allowed of God to be put in trust with the Goſpel, even ſo we ſpeak; not as pleaſing Men, but God, which trieth our hearts. For neither at any time uſed we flat<g ref="char:EOLhyphen"/>tering words, as ye know, nor a cloak of covetouſneſs, God is witneſs. Nor of men ſought we glory, neither of you, nor yet of others.</hi>
+                  </p>
+                  <p>
+                     <pb n="112" facs="tcp:94529:58"/>
+This admirable Spirit let us imitate; endeavouring after ſuch a degree of this Vertue, as to be glad if Men could look into our Hearts, and ſee our ſecret intenti<g ref="char:EOLhyphen"/>ons and deſigns; as we are ſure God doth. Who as <hi>he is witneſs</hi> to them (as the Apoſtle ſpeaks) ſo will judge us according to our up<g ref="char:EOLhyphen"/>rightneſs and integrity in ſeeking to do him honour, and to promote the Salvation of Souls.</p>
+                  <p>Thus the Fathers of the Church, particularly St. <hi>Gregory Nazianzen,</hi> diſtinguiſh a Political Chriſtian, from a Spiritual. <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>, &amp;c. A <hi>Political</hi> Perſon, or a Man of this Worlds buſineſs, is to do and to ſay all things whereby he may do himſelf cre<g ref="char:EOLhyphen"/>dit, and be honoured by others: deſigning no happineſs, beyond this preſent Life. But a Spiritual Mans buſineſs, is to take care of
+<pb n="113" facs="tcp:94529:58"/>
+his Salvation: and highly to e<g ref="char:EOLhyphen"/>ſteem what contributes unto that, but to look upon that which doth not, as nothing worth. In ſhort, To eſteem thoſe things above all others, <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>, &amp;c. <hi>By which he himſelf may be made moſt worth; and he may draw others by himſelf, to the best and moſt excellent things.</hi> Orat. XIX. p. 300.</p>
+               </div>
+               <div n="5" type="section">
+                  <head>SECT. V.</head>
+                  <p>There are ſome other qualities, that make up the Character of <hi>a good Miniſter of Je<g ref="char:EOLhyphen"/>ſus Chriſt:</hi> of which I have not room, in this little Treatiſe, par<g ref="char:EOLhyphen"/>ticularly to diſcourſe. For he ought to <hi>ſerve the Lord with all humility of mind,</hi> XX <hi>Acts</hi> 19. with <hi>Patience</hi> alſo, 2 <hi>Tim.</hi> II. 24. and with <hi>Meekneſs, 2 Tim.</hi> II. 25. All which St. <hi>Paul</hi> hath commend<g ref="char:EOLhyphen"/>ed to us, together with the fore<g ref="char:EOLhyphen"/>going qualities, in that admirable
+<pb n="114" facs="tcp:94529:59"/>
+deſcription he makes of himſelf. 2 <hi>Corinth.</hi> VI. 3, 4, 5, 6. &amp;c. which was part of the Epiſtle, I obſer<g ref="char:EOLhyphen"/>ved, for the Firſt Sunday in <hi>Lent.</hi> Where he firſt of all ſaith, that they took care, to <hi>give no offence in any thing, that the Miniſtry might not be blamed.</hi> Of which I ſhall briefly ſpeak a little, when I have firſt laid before you what follows. <hi>But in all things approving our ſelves as the Miniſters of God.</hi> Not merely ſhewing themſelves, (ſaith <hi>Oecumenius</hi> on the place) but more than that <hi>approving,</hi> or <hi>com<g ref="char:EOLhyphen"/>mending</hi> themſelves: which ſigni<g ref="char:EOLhyphen"/>fies a demonſtration <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap> by real Works and Deeds, to be truly Chriſt's Miniſters. Which demonſtration, ſaith he, they gave firſt of all <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap> in <hi>Patience;</hi> nay, he adds <hi>much Pati<g ref="char:EOLhyphen"/>ence</hi> 
+                     <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap> generouſly bearing all that was ſaid of them; that is, Mens
+<pb n="115" facs="tcp:94529:59"/>
+Cenſures, Reproaches, and Ca<g ref="char:EOLhyphen"/>lumnies: yea, and all the ſuffer<g ref="char:EOLhyphen"/>ings and miſeries, they pleaſed to heap upon them: Which he ex<g ref="char:EOLhyphen"/>preſſes in the next words, <hi>in af<g ref="char:EOLhyphen"/>flictions, in neceſſities, in diſtreſſes, in ſtripes, in impriſonments, in tumults, in labours, in watchings, in faſtings.</hi> Upon which I cannot enlarge; nor upon what he ſaith of their <hi>Pureneſs</hi> and <hi>Knowledge</hi> (i. e. their Divine Wiſdom, whereby they approved themſelves God's Mini<g ref="char:EOLhyphen"/>ſters, not by Humane Philoſophy as the ſame <hi>Oecumenius</hi> expounds it) and all the reſt. But only take Notice of what he ſaith, <hi>v. 7. by the armour of righteouſneſs on the Right hand, and on the Left.</hi> As if he had ſaid, would ye know how we come to perform ſuch things (as the ſame Author expounds it) give ear then to what follows; it was by being armed on both ſides, on the <hi>right,</hi>
+                     <pb n="116" facs="tcp:94529:60"/>
+and on the <hi>left;</hi> which are not ſo contrary, but the <hi>Armour of Righteouſneſs</hi> fitted both. By the right hand, ſaith he, the Apoſtle underſtands <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>, proſpe<g ref="char:EOLhyphen"/>rous things, ſuch as honour and eſteem among Men; which did not make us ſwell, nor puff us up with Vain Glory: and there<g ref="char:EOLhyphen"/>fore were the Armour or Weapons of Righteouſneſs. On the left hand, were the things contrary to theſe, Temptations, Perſecuti<g ref="char:EOLhyphen"/>ons, Reproaches, and Injuries; by which we were not dejected nor caſt down; as by the other we were not elated. As if he had ſaid in other words, <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap> 
+                     <hi>neither lifted up by good things, nor diſheartned by evil.</hi> A proof of which imme<g ref="char:EOLhyphen"/>diately follows, <hi>by honour and by diſhonour, by evil report and good report.</hi> In which words ſaith that
+<pb n="117" facs="tcp:94529:60"/>
+Author, he recounts the right hand, and the left hand things. And in this Spirit, we ought to ſerve the Lord Chriſt: not mind<g ref="char:EOLhyphen"/>ing the vain praiſe of Men, nor their diſpraiſe: but only endea<g ref="char:EOLhyphen"/>vouring to approve our ſelves to our Bleſſed Lord and Maſter, with an equal mind in all Conditi<g ref="char:EOLhyphen"/>ons.</p>
+                  <p>Before I end this, I cannot but a little reflect upon thoſe words, wherewith the Apoſtle begins this diſcourſe, <hi>giving no offence in any thing, that the Miniſtry be not bla<g ref="char:EOLhyphen"/>med.</hi> Which admoniſhes us cau<g ref="char:EOLhyphen"/>tiouſly to avoid every thing at which Men may take juſt excep<g ref="char:EOLhyphen"/>tion, for this very reaſon: leaſt the Goſpel of Chriſt ſhould be hindred; and our fault be laid up<g ref="char:EOLhyphen"/>on our Religion.</p>
+                  <p>There is a remarkable Precept to this purpoſe, which the Apoſtle gives both to <hi>Timothy</hi> and to <hi>Titus.</hi>
+                     <pb n="118" facs="tcp:94529:61"/>
+1 <hi>Tim.</hi> IV. 12. II <hi>Tit. 15. Let no Man deſpiſe thee.</hi> Which ſome may fancy (as <hi>Theodoret</hi> obſerves) to be a command belonging to others rather than to us: who cannot hinder Mens deſpiſals. But that's a miſtake, in the Apo<g ref="char:EOLhyphen"/>ſtles opinion, who would have <hi>Timothy</hi> to know, that he who commands and teaches others may preſerve himſelf from con<g ref="char:EOLhyphen"/>tempt by this means (though he was a young Man) <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>, &amp;c. <hi>Be thou a living Law, ſhow in thy ſelf the perfect work of the Law; lead ſuch a life as will bear witneſs to thy words.</hi> Which life he deſcribes in the words immediately following, <hi>be thou an example of the Believers, in Word, in Converſation, in Charity, in Spirit, in Faith, in Purity.</hi> He that thus makes himſelf <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap> (as <hi>Oecumenius</hi> expreſſes it) <hi>as it were
+<pb n="117" facs="tcp:94529:61"/>
+a living Image and Rule of a good Life,</hi> will preſerve himſelf from contempt; and not loſe but main<g ref="char:EOLhyphen"/>tain his Authority.</p>
+                  <p>To conclude this; there is no<g ref="char:EOLhyphen"/>thing the Devil more deſires and endeavours than to alienate the hearts of the People from their Miniſters: and therefore they ſhould take the greateſt care to do nothing that may give the leaſt occaſion of it. And here I cannot forbear to mind you of one thing, which hath given no ſmall Scandal: which is, the not keep<g ref="char:EOLhyphen"/>ing your Houſes, and that part of the Houſe of God, which belongs to the care of ſome Miniſters, in good Repair, and leaving them ſo to their Succeſſors. This ar<g ref="char:EOLhyphen"/>gues a very careleſs, or covetous, ſordid Spirit; minding nothing but a Mans ſelf, and the preſent World, and having no conſideration of the future.</p>
+                  <p>
+                     <pb n="118" facs="tcp:94529:62"/>
+I hope I need not exhort you to obſerve the LXXV Canon of our Church: which requires you not to reſort <hi>to any Taverns or Ale houſes</hi> at any time, other than for your honeſt neceſſities, <hi>&amp;c.</hi> Which occaſions cannot be fre<g ref="char:EOLhyphen"/>quent, nor of any long continu<g ref="char:EOLhyphen"/>ance. I ſhall only tell you that <hi>Julian</hi> the Apoſtate, in his fa<g ref="char:EOLhyphen"/>mous Letter to <hi>Arſacius</hi> the High Prieſt of the Pagan Religion in <hi>Galatia,</hi> having commended the Exemplary Charity of Chriſtians, to the imitation of his Prieſts, adds (after ſome other good Ad<g ref="char:EOLhyphen"/>monitions of governing their Fa<g ref="char:EOLhyphen"/>milies well) <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>, &amp;c. <hi>Exhort a Prieſt, that he neither go into the Theatre, nor drink in a Tavern; nor exerciſe any baſe or ignominoius art. Honour thoſe that obey theſe Orders, and put the diſobedient out of their Office. Fpiſt.</hi>
+                     <pb n="119" facs="tcp:94529:62"/>
+XLIX. This ſhowes how ſenſible he was of the neceſſity of the Apoſtolical Precept, that he who miniſtred to God, <hi>ſhould have a good report of them which are with<g ref="char:EOLhyphen"/>out.</hi> i. e. are not of his Religion. 1 <hi>Tim.</hi> III. 7.</p>
+                  <p>To Conclude, think often what an honour it is to ſerve the Lord Jeſus; and what Care he took of his Flock: How inva<g ref="char:EOLhyphen"/>luable the Souls of Men are, which he purchaſed with his Blood. What an ineſtimable Treaſure the Goſpel of Chriſt is, wherewith you are intruſted: in what an high Station God hath placed you: and then you will never ſubmit to ſo much as any mean Action; but do ſuch things as may procure you eſteem; or at leaſt prevent contempt.</p>
+                  <p>
+                     <pb n="120" facs="tcp:94529:63"/>
+And to keep this Good Spi<g ref="char:EOLhyphen"/>rit in you, which I have de<g ref="char:EOLhyphen"/>ſcribed, it would be of ſingular Uſe to read every Lord's day (at leaſt every Ordination Sun<g ref="char:EOLhyphen"/>day) the Vows and Promiſes you made when you were ad<g ref="char:EOLhyphen"/>mitted into Holy Orders: Which are ſo Solemn, that it is im<g ref="char:EOLhyphen"/>poſſible not to be moved by them, if they be not merely read, but ſeriouſly weighed and conſidered.</p>
+                  <p>Theſe Inſtructions I have Written in the midſt of great variety of Buſineſs, and with many interruptions; which may make them defective in many Particulars, and leſs accurate than they might otherwiſe have been: But what they want in that, will be made up, I hope, by the ſincere deſire I have to do good, and by the Grace
+<pb n="121" facs="tcp:94529:63"/>
+of God accompanying all honeſt endeavours. Unto which Grace I moſt heartily commend you; and reſt,</p>
+                  <closer>
+                     <signed>Your Affectionate Brother,
+Sy. Elienſ.</signed>
+                     <dateline>
+                        <date>March 19. 1697.</date>
+                     </dateline>
+                  </closer>
+               </div>
+            </div>
+         </div>
+      </body>
+      <back>
+         <div type="publishers_advertisement">
+            <pb facs="tcp:94529:64"/>
+            <head>
+               <hi>Books Written by the R. R.</hi> Symon Patrick, <hi>D. D. now Lord Biſhop of</hi> Ely; <hi>and Printed for</hi> Richard Chiſwell.</head>
+            <p>THE Parable of the Pilgrim, written to a Friend. The 6 Edition. <hi>4to</hi> 1681.</p>
+            <p>
+               <hi>—Menſa Myſtica:</hi> Or, a Diſcourſe con<g ref="char:EOLhyphen"/>cerning the Sacrament of the Lord's Supper: In which the Ends of its In<g ref="char:EOLhyphen"/>ſtitution are ſo manifeſted, our Addreſ<g ref="char:EOLhyphen"/>ſes to it ſo directed, our Behaviour there and afterward ſo compoſed, that we may not loſe the Profits which are to be re<g ref="char:EOLhyphen"/>ceived by it. With Prayers and Thankſ<g ref="char:EOLhyphen"/>givings inſerted. To which is annexed.</p>
+            <p>
+               <hi>—Aqua Genitalis:</hi> A Diſcourſe concern<g ref="char:EOLhyphen"/>ing Baptiſm: In which is inſerted a Diſcourſe to perſwade to a confirmation of the Baptiſmal Vow. <hi>8vo.</hi>
+            </p>
+            <p>
+               <hi>—Jewiſh</hi> Hypocriſie: A Caveat to the preſent Generation. Wherein is ſhewn both the falſe and the true way to a Na<g ref="char:EOLhyphen"/>tions or Perſons compleat Happineſs; from the ſickneſs and recovery of the Jewiſh State. To which is added, A Diſ<g ref="char:EOLhyphen"/>courſe upon <hi>Micah</hi> 6. 8. belonging to the ſame matter. <hi>8vo.</hi>
+            </p>
+            <p>—Divine Arithmatick: A Sermon at the Funeral of Mr. <hi>Samuel Jacomb,</hi> Miniſter of St. <hi>Mary-Woolnoth-</hi>Church in <hi>Lombard<g ref="char:EOLhyphen"/>ſtreet,
+<pb facs="tcp:94529:64"/>
+London.</hi> With an Account of his Life. <hi>8vo.</hi>
+            </p>
+            <p>—A Sermon Preached at the Funeral of Mr. <hi>Tho. Grigg,</hi> Rector of St. <hi>Andrew-<g ref="char:V">Ʋ</g>nderſharft, London, 4to.</hi>
+            </p>
+            <p>—An Expoſition of the Ten Command<g ref="char:EOLhyphen"/>ments. <hi>8vo.</hi>
+            </p>
+            <p>—Heart's Eaſe: Or, a Remedy againſt all Troubles. With a Conſolatory Diſ<g ref="char:EOLhyphen"/>courſe, particularly directed to thoſe who have loſt their Friends and Relati<g ref="char:EOLhyphen"/>ons. To which is added Two Papers, printed in the time of the late Plague. The ſixth Edition corrected. <hi>12mo.</hi> 1695.</p>
+            <p>—The Pillar and Ground of Truth. A Treatiſe ſhewing that the Roman Church falſly claims to be <hi>That Church, and the Pillar of That Truth</hi> mentioned by St. <hi>Paul,</hi> in 1 <hi>Tim. 3. 15. 4to.</hi>
+            </p>
+            <p>—An Examination of <hi>Bellarmin</hi>'s Se<g ref="char:EOLhyphen"/>cond Note of the Church, <hi>viz. ANTI<g ref="char:EOLhyphen"/>Q<g ref="char:V">Ʋ</g>ITY. 4to.</hi>
+            </p>
+            <p>—An Examination of the Texts which Papiſts cite out of the Bible to prove the Supremacy of St. <hi>Peter</hi> and of the Pope over the whole Church. In Two Parts. <hi>4to.</hi>
+            </p>
+            <p>—An Anſwer to a Book ſpread abroad by the Romiſh Prieſts: Entituled <hi>[The Touchſtone of the Reformed Goſpel]</hi> where<g ref="char:EOLhyphen"/>in the True <hi>Doctrine</hi> of the <hi>Church of England,</hi> and many Texts of the Holy Scripture are faithfully explained. <hi>8vo.</hi> 1692.</p>
+            <p>
+               <pb facs="tcp:94529:65"/>
+—A private Prayer to be uſed in diffi<g ref="char:EOLhyphen"/>cult times.</p>
+            <p>—A Thankſgiving for our late wonder<g ref="char:EOLhyphen"/>ful Deliverance.</p>
+            <p>—A Prayer for Charity, Peace and Uni<g ref="char:EOLhyphen"/>ty; chiefly to be uſed in <hi>Lent.</hi>
+            </p>
+            <p>—A Sermon Preached upon St. <hi>Peter</hi>'s Day; printed with Enlargements. <hi>4to.</hi>
+            </p>
+            <p>—A Sermon Preached in St. <hi>James</hi>'s Chappel, before the Prince of <hi>Orange, Jan.</hi> 20. 1688. on <hi>Iſaiah</hi> 11. 6.</p>
+            <p>—A Second Part of the Sermon before the Prince of <hi>Orange,</hi> on the ſame Text. Preached in <hi>Covent-Garden.</hi>
+            </p>
+            <p>—A Sermon Preached before the Queen in <hi>March</hi> 1688/9. on <hi>Coloſ.</hi> 3. 15.</p>
+            <p>—A Sermon againſt Murmuring, Preach<g ref="char:EOLhyphen"/>ed at <hi>Covent-Garden</hi> in <hi>Lent,</hi> 1688/9. on 1 <hi>Cor.</hi> 10. 10.</p>
+            <p>—A Sermon againſt Cenſuring, Preach<g ref="char:EOLhyphen"/>ed at <hi>Covent-Garden</hi> in <hi>Advent,</hi> 1688. on 1 <hi>Cor.</hi> 4. 10.</p>
+            <p>—Faſt-Sermon before the King and Queen, <hi>April</hi> 16. 1690. on <hi>Proverbs</hi> 14. 34.</p>
+            <p>—A Thankſgiving-Sermon before the Lords, <hi>Nov.</hi> 26. 1691. for reducing of <hi>Ireland,</hi> and the King's ſafe Return. On <hi>Deut.</hi> 4. 9.</p>
+            <p>—A Faſt-Sermon before the Queen, <hi>April</hi> 8. 1692. On <hi>Numb.</hi> 10. 9.</p>
+            <p>—A Sermon before the Lords, <hi>Nov.</hi> 5. 1696. on <hi>Dan.</hi> 4. 35.</p>
+            <p>
+               <pb facs="tcp:94529:65"/>
+—Sermon before the Lord Mayor at St. <hi>Brides</hi> Church, on <hi>Eaſter-Munday,</hi> 1696. on 2 <hi>Tim.</hi> 2. 8.</p>
+            <p>—A Commentary on the Firſt Book of <hi>Moſes,</hi> called <hi>Geneſes, 4to.</hi> 1695.</p>
+            <p>—A Commentary on the Second Book of <hi>Moſes,</hi> called <hi>Exodus, 4to.</hi> 1697.</p>
+            <p>—A Commentary on the Third Book of <hi>Moſes,</hi> called <hi>Leviticus. 4to.</hi> 1697.</p>
+            <p>—Commentary on the Fourth Book of <hi>Moſes,</hi> called <hi>Numbers [now in the Preſs.]</hi>
+            </p>
+            <p>Dr. <hi>THOMAS TENISON,</hi> now Lord Arch<g ref="char:EOLhyphen"/>biſhop of <hi>Canterbury,</hi> his Sermon con<g ref="char:EOLhyphen"/>cerning Diſcretion in giving Alms. 1688.</p>
+            <p>—Sermon againſt Self-love, before the Houſe of Commons. 1689.</p>
+            <p>—Sermon of doing Good to Poſterity, before Their Majeſties. 1689 90.</p>
+            <p>—Sermon concerning the Wandring of the Mind in God's Service, before the Queen: <hi>Feb.</hi> 15. 1690.</p>
+            <p>—Sermon of the Folly of Atheiſm, be<g ref="char:EOLhyphen"/>fore the Queen: <hi>Feb.</hi> 22. 1690.</p>
+            <p>—Sermon Preached at the Anniverſary Meeting of the Clergy-mens Sons: <hi>De<g ref="char:EOLhyphen"/>cemb.</hi> 3. 1691.</p>
+            <p>—Sermon concerning the Celeſtial Body of a Chriſtian, before the Queen on <hi>Ea<g ref="char:EOLhyphen"/>ſter-</hi>day. 1694.—Ser-</p>
+            <p>—Sermon concerning Holy Reſolution, before the King at <hi>Kenſington: Decemb.</hi> 30. 1694. on <hi>Pſal.</hi> 129. 106.</p>
+            <p>
+               <pb facs="tcp:94529:66"/>
+—His Sermon at the Funeral of Queen <hi>Mary,</hi> in the Abby-Church, <hi>Weſtminſter,</hi> On <hi>Eccleſ.</hi> 7. 14.</p>
+            <p>A Vindication of Their Majeſties Authority to fill the Sees of the deprived Biſhops, in a Letter occaſioned by Dr. <hi>B—</hi>'s Refuſal of the Biſhoprick of <hi>Bath</hi> and <hi>Wells. 4to.</hi>
+            </p>
+            <p>A Diſcourſe concerning the Unreaſonable<g ref="char:EOLhyphen"/>neſs of a new Separation, on Account of the Oaths to the preſent Government. With an Anſwer to the Hiſtory of Paſ<g ref="char:EOLhyphen"/>ſive Obedience, ſo far as relates to them. <hi>4to.</hi>
+            </p>
+            <p>A Vindication of the ſaid Diſcourſe con<g ref="char:EOLhyphen"/>cerning the Unreaſonableneſs of a new Separation, from the Exceptions made againſt it in a Tract called, <hi>[A brief An<g ref="char:EOLhyphen"/>ſwer to the ſaid Diſcourſe,</hi> &amp;c.] 4 <hi>to.</hi>
+            </p>
+            <p>
+               <hi>Ruſhworth</hi>'s Hiſtorical Collections. The Third Part, in Two Volumes. Containing the Principal matters which happened from the meeting of the Parliament, <hi>Nov.</hi> 3. 1640. to the end of the Year 1644. Wherein is a particular Account of the Riſe and Progreſs of the Civil War, to that period. <hi>Fol.</hi> 1692. in 2 Vol.</p>
+            <p>A Diſcourſe of the Paſtoral Care. By <hi>Gilbert Burnet,</hi> D. D. Ld. Biſhop of <hi>Sarum.</hi> 1692.</p>
+            <p>
+               <hi>Origo Legum:</hi> Or, a Treatiſe of the Origine of Laws, and their Obliging Power; as alſo of their great Variety: and why
+<pb facs="tcp:94529:66"/>
+ſome Laws are immutable, and ſome not, but may ſuffer change, or ceaſe to be ſuſ<g ref="char:EOLhyphen"/>pended, or abrogated. In ſeven Books. By <hi>George Dawſon,</hi> Fol. 1694.</p>
+            <p>Bp. <hi>Burnet</hi>'s Four Diſcourſes delivered to the Clergy of the Dioceſs of <hi>Sarum:</hi> Concern<g ref="char:EOLhyphen"/>ing, I. Truth of the Chriſtian Religion. II. The Divinity and Death of Chriſt. III. The Infallibility and Authority of the Church. IV. The Obligations to continue in the Communion of the Church.</p>
+            <p>A Brief Diſcourſe concerning the Lawful<g ref="char:EOLhyphen"/>neſs of Worſhipping God by the Com<g ref="char:EOLhyphen"/>mon-Prayer: in anſwer to a Book, inti<g ref="char:EOLhyphen"/>tuied, <hi>A brief Diſcourſe of the <g ref="char:V">Ʋ</g>nlawful<g ref="char:EOLhyphen"/>neſs of the Common-Prayer-Worſhip.]</hi> By <hi>John Williams,</hi> D. D. <hi>4to.</hi> 1694.</p>
+            <p>A true Repreſentation of the abſurd and miſ<g ref="char:EOLhyphen"/>chievous Principles of the Sect common<g ref="char:EOLhyphen"/>ly known by the Name of the <hi>Muggleto<g ref="char:EOLhyphen"/>nians. 4to.</hi> 1694.</p>
+            <p>Memoirs of the moſt Reverend <hi>THOMAS CRANMER,</hi> Archbiſhop of <hi>Canterbury:</hi> Wherein the Hiſtory of the Church, and the Reformation of it, during the Pri<g ref="char:EOLhyphen"/>macy of the ſaid Archbiſhop, are greatly illuſtrated, and many ſingular Matters relating thereunto, now firſt publiſhed. In Three Books. Collected chiefly from Records, Regiſters, Authentick Letters, and other Original Manuſcripts. By <hi>John Strype,</hi> M. A. <hi>Fol.</hi> 1694.</p>
+            <p>
+               <pb facs="tcp:94529:67"/>
+The Hiſtory of the Troubles and Trial of <hi>WILLIAM LA<g ref="char:V">Ʋ</g>D</hi> L. Archbiſhop of <hi>Can<g ref="char:EOLhyphen"/>terbury;</hi> wrote by himſelf during his Im<g ref="char:EOLhyphen"/>priſonment in the Tower. To which is prefixed, the Diary of his own Life faith<g ref="char:EOLhyphen"/>fully and entirely Publiſhed from the Original Copy; and ſubjoined a Sup<g ref="char:EOLhyphen"/>plement to the preceding Hiſtory; The <hi>Archbiſhop's Laſt Will;</hi> His large <hi>Anſwer</hi> to the Lord <hi>Say</hi>'s Speech concerning <hi>Liturgies;</hi> His <hi>Annual Accounts</hi> of his Province delivered to the King, and ſome other things relating to the Hiſto<g ref="char:EOLhyphen"/>ry. Publiſhed by <hi>Henry Wharton,</hi> Chap<g ref="char:EOLhyphen"/>lain to Archbiſhop <hi>Sancroft, Fol.</hi>
+            </p>
+            <p>—Biſhop of <hi>Sarum</hi>'s Sermon at the Fune<g ref="char:EOLhyphen"/>ral of Archbiſhop <hi>Tillotſon.</hi> 1694.</p>
+            <p>Archbiſhop <hi>Tillotſon</hi>'s Sermons of Sincerity and Conſtancy in the Faith and Profeſſi<g ref="char:EOLhyphen"/>on of the True Religion, being the Firſt Volume. Publiſhed from his Originals by his Chaplain Dr. <hi>Barker.</hi>
+            </p>
+            <p>—2d. 3d. and 4th. Volumes of Seamons of the ſaid Archbp. Publiſhed by Dr. <hi>Barker.</hi>
+            </p>
+            <p>—A Fifth Volume of the ſame, now in the Preſs.</p>
+            <p>Dr. <hi>W. Outram</hi>'s 20 Sermons. the 2d. Edi<g ref="char:EOLhyphen"/>tion. 1697.</p>
+            <p>Dr. <hi>Hezik. Burton</hi>'s Diſcourſes, in Two Vol. in <hi>8vo.</hi> Publiſhed by Dr. <hi>Tillotſon.</hi>
+            </p>
+            <p>Mr. <hi>Hen. Wharton</hi>'s Sermons Preached in <hi>Lambeth</hi> Chappel. In Two Vol. <hi>8vo.</hi> With an Accout of his Life.</p>
+            <pb facs="tcp:94529:67"/>
+         </div>
+      </back>
+   </text>
+</TEI>
